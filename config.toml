@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://cdlx.pt"
 languageCode = "en-us"
 title = "CoderDojo LX"
 theme = "github-style"
