@@ -1,6 +1,7 @@
 ---
 date: '2020-05-16'
-title: 'Sobre o CoderDojo LX'
+title: 'O que é o CoderDojo?'
+toc: false
 ---
 
 Uma só regra…_**Sê Fixe!**_
@@ -21,4 +22,5 @@ Uma só regra…_**Sê Fixe!**_
 - Aquilo que funciona num CoderDojo particular é partilhado, e não imposto.
 - Colaboramos e contamos uns com os outros.
 - Campeões, mentores, encarregados de educação e jovens são responsáveis uns pelos outros.
-  {{< /ticks >}}
+
+{{< /ticks >}}
