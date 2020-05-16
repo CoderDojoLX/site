@@ -17,14 +17,22 @@ Temos uma só regra…_**Sê Fixe!**_
 
 Os mentores podem ser um adulto que participa nas sessões apoiando os ninjas ou um ninja que se destacou, passando a apoiar outros ninjas durante as nossas sessões.
 
-#### João Salema Sequeira
+| Nome | Contactos                                                   |
+| :--- | :---------------------------------------------------------- |
+| João | [Scratch](http://scratch.mit.edu/users/JoaoSalemaSequeira/) |
+
+<!-- #### João
 
 {{< figureCupper
 img="joao.jpeg"
 caption="Olá! Eu sou o João"
 command="Resize"
-options="100x" >}}
+options="150x" >}} -->
 
 ### Campeões
 
 Os campeões são usualmente também mentores, mas têm o papel especial de gerir e organizar o CoderDojo LX.
+
+| Nome  | Contactos                                                                          |
+| :---- | :--------------------------------------------------------------------------------- |
+| Paulo | [LinkedIn](http://pt.linkedin.com/in/paulolc) [GitHub](https://github.com/paulolc) |
