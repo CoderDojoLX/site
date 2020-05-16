@@ -11,4 +11,6 @@ Boa! Ainda bem que queres começar já. Esperamos ver esse entusiasmo nas nossas
 
 ## Tenho entre 8 e 13 anos
 
+[Vamos começar com o p5.]({{< relref "post/p5-3" >}})
+
 ## Tenho mais de 13 anos

@@ -22,8 +22,8 @@ Os mentores podem ser um adulto que participa nas sessões apoiando os ninjas ou
 {{< figureCupper
 img="joao.jpeg"
 caption="Olá! Eu sou o João"
-command="Fill"
-options="300x200 BottomLeft" >}}
+command="Resize"
+options="100x" >}}
 
 ### Campeões
 
