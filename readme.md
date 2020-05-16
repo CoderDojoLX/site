@@ -7,8 +7,8 @@ CoderDojo LX's web site is hosted with Github Pages, a free service that allows 
 ## Getting started
 
 1. [Install Hugo on your machine](https://gohugo.io/getting-started/quick-start/)
-2. Clone this repository into your preferred workspace by using `git clone https://github.com/CoderDojoLX/site.git`(edit if you use ssh)
-3. `cd site` and try running `hugo server -D`and you should see the exact same website at localhost:1313
+2. Clone this repository into your preferred workspace by using `git clone https://github.com/CoderDojoLX/site.git`(edit if you use ssh like a cool kid)
+3. `cd site` and try running `hugo server -D`and you should see an exact replica of the live site at localhost:1313
 
 ## File structure
 
@@ -16,7 +16,11 @@ You will only need to edit the files in the `content` folder. Please avoid touch
 
 1. Create a post by running `hugo new post/<your file name>.md` in the site's root directory
 2. Add the appropriate tags to suit the style of your post. You may view all current tags in use [here](https://coderdojolx.github.io/tags/). There is a reason why I have chosen not to display this in the menu bar...
-3. Write your content in markdown. For a primer on markdown visit [this link](https://cupper-hugo-theme.netlify.app/cupper-typography/) and for specific features that Cupper offers, visit [this link](https://cupper-hugo-theme.netlify.app/cupper-shortcodes/).
+3. Write your content in markdown. For a primer on markdown visit [this link](https://cupper-hugo-theme.netlify.app/cupper-typography/) and for specific features that Cupper offers, visit [this link](https://cupper-hugo-theme.netlify.app/cupper-shortcodes/). The note directive and the ticks directive are the most useful.
+
+Root directory files are in English while post files are in Portuguese - this choice is arbitrary but things will break if we deviate.
+
+You may link to your new post using the _relref directive_ `{{< relref "signup.md" >}}` in your markdown link reference. See the existing content for examples, or the helpful guides linked above.
 
 ## Deploying
 
