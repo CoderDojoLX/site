@@ -23,17 +23,3 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
-
-cd ..
-
-# Add changes to git.
-git add .
-
-# Commit changes.
-msg="making changes..."
-if [ -n "$*" ]; then
-        msg="$*"
-fi
-git commit -m "$msg"
-
-git push origin master
