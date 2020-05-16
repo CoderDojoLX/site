@@ -1,0 +1,21 @@
+<footer role="contentinfo">
+  <!-- <div>
+    <label for="themer">
+      dark theme: <input type="checkbox" id="themer" class="vh" />
+      <span aria-hidden="true"></span>
+    </label>
+  </div> -->
+  <div>
+    <p>Patrocínio</p>
+    <div style="padding: 0px 0px 12px 0px; margin: 0px;">
+      <a
+        class="img-link"
+        style="text-decoration: unset;"
+        href="https://www.iade.europeia.pt"
+      >
+        <img src="/images/iade.png" alt="peace dove" height="60px" />
+      </a>
+    </div>
+  </div>
+  {{ with .Site.Params.footer }} {{ . | markdownify }} {{ end }}
+</footer>
