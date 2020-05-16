@@ -14,15 +14,15 @@ Já te certificaste que tens permissão para editar os ficheiros de todos os nin
 
 ## Recapitular o progresso
 
-Relembrar que na ultima sessão conseguimos recriar o "bouncing ball". Código de demonstração disponivel [aqui](https://glitch.com/edit/#!/bola-saltitante).
+Relembrar que na última sessão conseguimos recriar o «bouncing ball». Código de demonstração disponível [aqui](https://glitch.com/edit/#!/bola-saltitante).
 
-## What if we wanted to add more balls?
+## E se quisermos adicionar mais bolas?
 
-Ask the ninjas how they would go about adding more balls. Encourage independent thinking here. They should come to the realization that adding any further balls will be quite tedious...so we need a better solution.
+Pergunte aos ninjas com poderiam adicionar mais bolas. Encoraje pensamento independente, neste momento. Eles devem chegar à conclusão que adicionar mais bolas é muito moroso e entediante… por isso precisamos de uma melhor solução.
 
-## First steps to OOP
+## Primeiros passos na POO
 
-In the same file and below all the functions(it's best not to add your classes in a separate file to avoid confusion), use the JavaScript _Class_ syntax to create a basic class.
+No mesmo ficheiro e abaixo de todas as funções (é melhor não colocar as classes em arquivos separados para evitar confusão), use a sintaxe de _Class_ para criar uma classe básica.
 
 ```js
 Class Bola {
@@ -44,15 +44,15 @@ Class Bola {
 }
 ```
 
-Make sure to explain to them the basic idea of a class (the blueprint) and how we can create instances of a class. Explain the constructor function and liken it to the existing code we have. Emphasize the connection between the code we have and the class, ie "we're not doing anything wildly different here, just wrapping our existing functions in fancy syntactical sugar".
+Assegure-se de explicar a ideia básica de uma classe (um modelo ou plano) e como se podem criar instâncias de uma classe. Explicar a função de construção (construtor) e mostrar como se assemelha ao código já existente. Emfatisar a ligação entre o código que temos e a classe, i.e., «não estamos a fazer nada de muito diferente do que já fizemos, estamos só a embrulhar as funções existentes numa nova sintaxe simpática, um pouco de «açúcar» sintático.
 
-## Porting the code
+## Transportar o código
 
-Now it's time to bring over the code you wrote last time. Add the variables in the constructor, and store them using `this.` syntax. Again, make sure to explain step-by-step what you are doing. It may not become fully apparent to them, but slowly they will start to understand. The idea is to show them the benefits that encapsulating your code brings.
+Agora está na altura de ir buscar o código que escrevemos da última vez. Adicione as variáveis no construtor e inicialize-as usando a sintaxe `this.`. De novo, assegure-se de explicar passo a passo o que está a fazer. Pode não ser totalmente claro para eles, mas aos poucos irão percebendo. A ideia é mostrar-lhes os benefícios trazidos por encapsularmos o nosso código.
 
-Function-by-function, start to copy paste code into the blocks and encourage the use of comments.
+Função a função, comece a cortar e colar o código para os blocos e encoraje a utilazação de comentários.
 
-The final class might look something like this:
+A classe final poderá assemelhar-se ao seguinte:
 
 ```js
 Class Bola {
