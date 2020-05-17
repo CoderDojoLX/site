@@ -7,8 +7,14 @@ CoderDojo LX's web site is hosted with Github Pages, a free service that allows 
 ## Getting started
 
 1. [Install Hugo on your machine](https://gohugo.io/getting-started/quick-start/)
-2. Clone this repository into your preferred workspace by using `git clone https://github.com/CoderDojoLX/site.git`(edit if you use ssh like a cool kid)
+2. Clone this repository into your preferred workspace by using `git clone --recursive https://github.com/CoderDojoLX/site.git`(edit if you use ssh like a cool kid)
 3. `cd site` and try running `hugo server -D`and you should see an exact replica of the live site at localhost:1313
+
+Note: if you have already cloned the repository and the project fails to build, then it's most likely because you're missing the submodules required. Run:
+
+```
+git clone --recurse-submodules --remote-submodules
+```
 
 ## File structure
 
