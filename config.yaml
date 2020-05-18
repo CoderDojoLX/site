@@ -17,8 +17,8 @@ imaging:
   quality: 99
 
 params:
-  description: Um espaço livre e gratuito para os jóvens dos 7 aos 17 aprenderem a programação, eletrónica, e muito mais!
-  homeMetaContent: Um espaço livre e gratuito para os jóvens dos 7 aos 17 aprenderem a programação, eletrónica, e muito mais!
+  description: Um espaço livre e gratuito para os jovens dos 7 aos 17 aprenderem a programação, eletrónica, e muito mais!
+  homeMetaContent: Um espaço livre e gratuito para os jovens dos 7 aos 17 aprenderem a programação, eletrónica, e muito mais!
   footer: Made with love by [@matias](https://github.com/matiasilva) with [Hugo](https://gohugo.io/). Deployed to [Github Pages](https://www.github.com/).
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
