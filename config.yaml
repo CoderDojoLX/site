@@ -21,7 +21,7 @@ params:
   homeMetaContent: Um espaço livre e gratuito para jovens dos 7 aos 17 aprenderem programação, electrónica e muito mais!
   footer: Feito com amor pelo [@matias](https://github.com/matiasilva) e cia., usando o [Hugo](https://gohugo.io/) no [Github Pages](https://www.github.com/).
   # For more date formats see https://gohugo.io/functions/format/
-  dateFormat: 2 de January de 2006
+  dateFormat: 2006-01-02
   codePenUser: someUser
   katex: true
 
