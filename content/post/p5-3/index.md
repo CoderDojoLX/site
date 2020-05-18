@@ -25,7 +25,7 @@ Pergunte aos ninjas com poderiam adicionar mais bolas. Encoraje pensamento indep
 No mesmo ficheiro e abaixo de todas as funções (é melhor não colocar as classes em arquivos separados para evitar confusão), use a sintaxe de _Class_ para criar uma classe básica.
 
 ```js
-Class Bola {
+class Bola {
     constructor(raio, x, y){
 
     }
