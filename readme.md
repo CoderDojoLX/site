@@ -13,7 +13,7 @@ CoderDojo LX's web site is hosted with Github Pages, a free service that allows 
 Note: if you have already cloned the repository and the project fails to build, then it's most likely because you're missing the submodules required. Run:
 
 ```
-git clone --recurse-submodules --remote-submodules
+git clone --recurse-submodules --remote-submodules git@github.com:CoderDojoLX/site.git
 ```
 
 ## File structure
