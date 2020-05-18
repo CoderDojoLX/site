@@ -4,18 +4,18 @@ title: "CoderDojo LX"
 ---
 
 {{< blockquote author="Campeões e amigos do CoderDojo LX" >}}
-Atualização COVID-19: O CoderDojo LX continua de portas abertas para todos os ninjas de Portugal! Inscreve-te já para participares nas nossas sessões remotas.
+Atualização COVID-19: O CoderDojo LX continua de portas (virtuais) abertas a todos os ninjas de Portugal! Inscreve-te já para participares nas nossas sessões remotas.
 {{< /blockquote >}}
 
-Tens entre 7 e 17 anos? Queres aprender a *programar*? A fazer um Web site como este? A fazer um jogo? A programar um robot? [**Vem às sessões do CoderDojo LX!**]({{< relref "signup.md" >}})
+Tens entre 7 e 17 anos? Queres aprender a *programar*? A fazer um sítio web como este? A fazer um jogo? A programar um robô? [**Vem às sessões do CoderDojo LX!**]({{< relref "signup.md" >}})
 
-Já sabes programar e gostavas melhorar? O CoderDojo LX também é para ti! Queres ajudar outros a aprender? Temos sempre falta de mentores talentosos. [**Inscreve-te já**]({{< relref "signup.md" >}})
+Já sabes programar e gostavas de melhorar? O CoderDojo LX também é para ti! Queres ajudar outros a aprender? Temos sempre falta de mentores talentosos! [**Inscreve-te já**]({{< relref "signup.md" >}})
 
 ## Sessões
-O CoderDojo LX oferece três sessões por semana:
-* quarta-feira 18:00-18:45: Code Kata (sessão de apoio à programação)
-* sábado 14:30-16:00: Programação criativa usando p5.js 
-* sábado 16:30-18:00: Introdução à programação visual com Scratch
+O CoderDojo LX tem usualmente três sessões por semana:
+* quarta-feira 18:00-18:45: Code Kata (sessão de conversa, apoio à programação e muito mais)
+* sábado 14:30-16:00: Primeira sessão temática (por exemplo, p5.js ou Python)
+* sábado 16:30-18:00: Segunda sessão temática (por exemplo, Scratch ou HTML/CSS)
 <!---
 Traz um computador portátil (e uma extensão, não vá o diabo tecê-las). Se tiveres um robot Lego, podes trazê-lo também. Ah! e traz um dos teus encarregados de educação, para ele poder também aprender umas coisas :-). (Se tiveres pelo menos 16 anos, podes deixá-lo ficar em casa, desde que tenhas autorização para vir, claro.)
 
