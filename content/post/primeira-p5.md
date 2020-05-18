@@ -8,13 +8,13 @@ tags: ['guia', 'beginner']
 
 {{< ticks >}}
 
-- O navegador Chrome ou Firefox (atualizado)
+- O navegador Chrome ou Firefox (actualizado)
 - Um microfone (o microfone do computador dá perfeitamente)
 - Webcam (opcional)
 - Uma conta no Glitch (ver vídeo em baixo)
   {{< /ticks >}}
 
-> O Glitch é uma plataforma de programação colaborativa parecida ao Scratch mas para o JavaScript
+> O Glitch é uma plataforma de programação colaborativa parecida com o Scratch, mas para programação em JavaScript.
 
 ## Instruções
 

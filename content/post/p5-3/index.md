@@ -55,7 +55,7 @@ Função a função, comece a cortar e colar o código para os blocos e encoraje
 A classe final poderá assemelhar-se ao seguinte:
 
 ```js
-Class Bola {
+class Bola {
   constructor(raio, x, y) {
     this.raio = raio;
     this.x = x;
@@ -86,15 +86,15 @@ Class Bola {
 }
 ```
 
-## Creating the first ball
+## Criando a primeira bola
 
-Now it's time to create an object of your class. Introduce the keyword `new` to them and provide useful analogies. Start by creating one instance of the class using `let bola;` before the `setup()` function. This ensures the variable is a global variable. Then in `setup()` instantiate the class using something like this:
+Agora é altura de criar um objecto (uma «instância») da classe. Apresente-lhes a palavra-chave `new` e faça analogias úteis. Comece por criar uma variável para guardar a instância da classe usando `let bola;` antes da função `setup()`. Isto garante que a variável é global. Depois, na função `setup()`, instancie a classe usando algo com o seguinte:
 
 ```js
 bola = new Bola(random(10, 40), width / 2, height / 2);
 ```
 
-Now add the three functions that must be called in draw:
+Agora adicione as três funções (ou «métodos») que devem ser invocadas na função `draw()`:
 
 ```js
 // houve alguma colisão com as paredes?
@@ -105,13 +105,13 @@ bola.saltar(acel);
 bola.desenhar();
 ```
 
-The code should run the same as last time. Some tweaks should be made in setup to preserve styles and colors.
+O código deve funcionar tal como antes. Deve-se fazer alguns ajuste na função `setup()` para preservar estilos e cores.
 
-## Manipulating arrays
+## Manipulando *arrays*
 
-Now it's time to move to arrays. Use JS syntax to create an array: `let bolas = [];` and replace the bolas declaration you had before. Now simply use the `push` function to append items to the array like so: `bolas.push(new Bola(random(10, 40), width/2, height/2));`.
+Vamos avançar para os *arrays*. Use a syntaxe JavaScript para criar um *array* `let bolas = [];`, substituindo a declaração de `bola` já existente. Agora use simplesmente a função `push()` para acrescentar itens ao *array*: `bolas.push(new Bola(random(10, 40), width/2, height/2));`.
 
-To iterate over the balls, use a `for...of` loop like so:
+Para percorrer as bolas (ou «iterar» ao longo do *array*), use um ciclo `for...of`:
 
 ```js
 for (bola of bolas) {
@@ -124,13 +124,13 @@ for (bola of bolas) {
 }
 ```
 
-That should be it!
+E é isto!
 
-## Final tweaks
+## Ajustes finais
 
-You can implement many additional functions once you have the core idea going. Perhaps encourage them to play around, add new colors, user interaction, etc.
+Pode implementar funções adicionais assim que a ideia principal já esteja a funcionar. Talvez seja boa ideia encorajá-los a brincar um pouco, adicionando cores, interacção com o utilizador, etc.
 
-An implementation of spawning a new ball every time the mouse is pressed is shown below:
+Uma implementação fazendo nascer uma nova bola sob o ponteiro do rato sempre que se clica nele é a seguinte:
 
 ```js
 function mousePressed() {
