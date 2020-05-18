@@ -1,6 +1,6 @@
 baseURL: https://coderdojolx.github.io
-languageCode: en-us
-defaultContentLanguage: en
+languageCode: pt-pt
+defaultContentLanguage: pt
 title: CoderDojo LX
 theme: cupper-hugo-theme
 googleAnalytics: UA-40757100-3
@@ -17,17 +17,17 @@ imaging:
   quality: 99
 
 params:
-  description: Um espaço livre e gratuito para os jovens dos 7 aos 17 aprenderem a programação, eletrónica, e muito mais!
-  homeMetaContent: Um espaço livre e gratuito para os jovens dos 7 aos 17 aprenderem a programação, eletrónica, e muito mais!
-  footer: Made with love by [@matias](https://github.com/matiasilva) with [Hugo](https://gohugo.io/). Deployed to [Github Pages](https://www.github.com/).
+  description: Um espaço livre e gratuito para jovens dos 7 aos 17 aprenderem programação, electrónica e muito mais!
+  homeMetaContent: Um espaço livre e gratuito para jovens dos 7 aos 17 aprenderem programação, electrónica e muito mais!
+  footer: Feito com amor pelo [@matias](https://github.com/matiasilva) e cia., usando o [Hugo](https://gohugo.io/) no [Github Pages](https://www.github.com/).
   # For more date formats see https://gohugo.io/functions/format/
-  dateFormat: Jan 2, 2006
+  dateFormat: 2 de January de 2006
   codePenUser: someUser
   katex: true
 
 menu:
   nav:
-    - name: Home
+    - name: Início
       url: /
       weight: 1
     - name: Inscreve-te!
