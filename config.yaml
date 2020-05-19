@@ -39,9 +39,9 @@ menu:
     - name: Quero começar já!
       url: /start/
       weight: 4
-    - name: Etiquetas
-      url: /tags/
-      weight: 10
+    #- name: Etiquetas
+    #  url: /tags/
+    #  weight: 10
     # - name: Blog
     #   url: /pot/
     #   weight: 3
