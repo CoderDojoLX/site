@@ -51,3 +51,5 @@ Fomos preparando várias apresentações para cada uma das sessões que realizá
 ## A Internet, a Web, páginas, sítios e endereços
 
 [Em construção]
+
+O que é a Internet. O que é a Web. Etc.
