@@ -33,10 +33,10 @@ menu:
     - name: Inscreve-te!
       url: /signup/
       weight: 2
-    - name: A primeira sessão
+    - name: Prepara-te! 
       url: /first/
       weight: 3
-    - name: Quero começar já!
+    - name: Começa já!
       url: /start/
       weight: 4
     #- name: Etiquetas
@@ -48,7 +48,7 @@ menu:
     - name: Sobre nós
       url: /about/
       weight: 5
-    - name: Contacta-nos
+    - name: Contacta-nos!
       url: /contact/
       weight: 6
     # - name: RSS

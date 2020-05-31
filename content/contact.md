@@ -1,6 +1,6 @@
 ---
 date: '2020-05-16'
-title: 'Fala com o CoderDojo LX'
+title: 'Contacta-nos!'
 ---
 
 Envia as tuas mensagens dúvidas, questões, sugestões, o que for, para [lisbon.prt@coderdojo.com](mailto:lisbon.prt@coderdojo.com).
