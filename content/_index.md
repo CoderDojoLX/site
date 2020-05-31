@@ -16,6 +16,8 @@ O CoderDojo LX tem usualmente três sessões por semana:
 * quarta-feira 18:00-18:45: Code Kata (sessão de conversa, apoio à programação e muito mais)
 * sábado 14:30-16:00: Primeira sessão temática (p5.js, Python, etc.)
 * sábado 16:30-18:00: Segunda sessão temática (Scratch, HTML/CSS, etc.)
+
+Podes encontrar uma lista de algumas das nossas sessões [aqui]({{<relref "sessions/">}}).
 <!---
 Traz um computador portátil (e uma extensão, não vá o diabo tecê-las). Se tiveres um robot Lego, podes trazê-lo também. Ah! e traz um dos teus encarregados de educação, para ele poder também aprender umas coisas :-). (Se tiveres pelo menos 16 anos, podes deixá-lo ficar em casa, desde que tenhas autorização para vir, claro.)
 
