@@ -11,6 +11,7 @@ Boa! Ainda bem que queres começar já. Esperamos ver esse entusiasmo nas nossas
 
 ## Tenho entre 8 e 13 anos
 
-[Vamos começar com o p5.]({{< relref "post/p5-3" >}})
+- [Vamos começar a programar JavaScript usando o p5.js!]({{< relref "post/p5-3" >}})
+- [Vamos começar a programar para a Web usando HTML/CSS!]({{<relref "post/html-css">}})
 
 ## Tenho mais de 13 anos
