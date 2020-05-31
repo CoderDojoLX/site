@@ -39,6 +39,9 @@ menu:
     - name: Quero começar já!
       url: /start/
       weight: 4
+    - name: Sessões
+      url: /sessions/
+      weight: 4
     #- name: Etiquetas
     #  url: /tags/
     #  weight: 10
