@@ -28,6 +28,21 @@ Root directory files are in English while post files are in Portuguese - this ch
 
 You may link to your new post using the _relref directive_ `{{< relref "signup.md" >}}` in your markdown link reference. See the existing content for examples, or the helpful guides linked above.
 
+## Updating
+
+The usual sequence of adding, commiting, pulling, and pushing apply. If you get an error like the following
+
+```
+Fetching submodule public
+fatal: remote error: upload-pack: not our ref 18fbf876b7a447c21ff2f8f62b8a8adebd215a58
+```
+
+try:
+
+```
+git submodule update --remote --merge
+```
+
 ## Deploying
 
 Deploying to the main web site is done via a script provided by Hugo and slightly tweaked by me. Run `./deploy.sh`in your local shell environment to push all the changes to the main web site.
