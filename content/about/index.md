@@ -1,6 +1,6 @@
 ---
 date: '2020-05-16'
-title: 'Sobre o CoderDojo LX'
+title: 'Sobre nós'
 ---
 
 O CoderDojo LX é uma organização informal cujo objectivo é dar aos jovens dos 7 aos 17 anos a oportunidade de aprenderem a programar e sobre tecnologias relacionadas com a programação de forma divertida, aberta e gratuita.
