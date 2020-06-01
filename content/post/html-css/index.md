@@ -22,7 +22,6 @@ Alguns dos materiais sugeridos abaixo correspondem a estas sessões. Mas não pr
 
 ### Glitch
 
-
 Nesta sequência aconselhamos-te a usar o [Glitch](https://glitch.com/). Se tens pelo menos 13 anos e ainda não tens conta no Glitch, cria já uma! Se tens menos de 13 anos, pede ajuda ao teu encarregado de educação.
 
 Criámos no Glitch uma colecção onde encontras vários projecto de arranque ou os exemplos do sítio web dos Nanonautas correspondentes às várias páginas do livro. A colecção chama-se [Exemplos das sessões HTML/CSS: Programação Web](https://glitch.com/@cdlx/exemplos-das-sessoes-html-css-programacao-web). 
@@ -53,6 +52,43 @@ Fomos preparando várias apresentações para cada uma das sessões que realizá
 
 ## A Internet, a Web, páginas, sítios e endereços
 
-[Em construção]
+Vamos começar por definir alguns conceitos, com ajuda da nossa amiga [Wikipédia](https://pt.wikipedia.org/):
 
-O que é a Internet. O que é a Web. Etc.
+**[Internet](https://www.wikiwand.com/pt/Internet)** – Sistema global de redes de computadores interligadas que usam um conjunto próprio de *protocolos* chamado Internet Protocol Suite ou TCP/IP e tem como objectivo servir cada vez mais utilizadores no mundo inteiro.
+
+**[Web ou World Wide Web](https://www.wikiwand.com/pt/World_Wide_Web)** – Sistema de documentos de vários tipos (texto, imagens, vídeos, sons, etc.), muitos deles **hipetexto**, interligados e acessíveis na Internet.
+
+**[Sítio web](https://www.wikiwand.com/pt/S%C3%ADtio_eletr%C3%B3nico)** – Conjunto de **páginas web** relacionadas disponíveis num mesmo *nome de domínio*, por exemplo o [sítio web dos Nanonautas](https://nanonautas-final.glitch.me/) (que é onde chegaremos no final deste percurso de aprendizagem).
+
+**[Página web](https://www.wikiwand.com/pt/P%C3%A1gina_web)** – Um documento ou recurso em **hipertexto** disponível na Web a que se pode aceder usando um navegador e que tem um dado endereço, ou melhor, um dado **URL**.
+
+**[Hipertexto](https://www.wikiwand.com/pt/Hipertexto)** – Documento com ligações (mais precisamente, hiperligações) a outros documentos ou recursos.
+
+**[URL](https://www.wikiwand.com/pt/URL)** – Localizador de um recurso na web, usualmente uma página web. Aos URL também se chama muitas vezes endereços web ou simplemente endereços. Por exemplo, o endereço da sítio web dos Nanonautas é dado por este URL: `https://nanonautas-final.glitch.me/`
+
+Há aqui algumas palavras meio esquisitas. Um exemplo é *[protocolo](https://www.wikiwand.com/pt/Protocolo_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))*. Simplificando muito, um protocolo é um conjunto de regras ou convenções que permite que tudo corra bem, isto é que a comunicação entre dois computadores aconteça. Os protocolos são importantes não apenas na diplomacia, mas também na comunicação entre computadores! Já reparaste que os endereços web começam todos com `http` ou `https`? Isso indica ao navegador que o protocolo a usar para comunicar com o computador (a que se chama *servidor*) onde se encontra o recurso (por exemplo, uma página web) é o [HTTP](https://www.wikiwand.com/pt/Hypertext_Transfer_Protocol) (Hypertext Transfer Protocol). A versão com um «s» no fim significa que se usa uma combinação do HTTP com outro protolo (chamado TLS) que garante que a comunicação é segura, ou seja, que ninguém que intercepte a comunicação conseguirá fazer cabo-e-rabo do que está a ser comunicado.
+
+Outro exemplo é a palavra *[nome de domínio](https://www.wikiwand.com/pt/Nome_de_dom%C3%ADnio)*. Os nomes de domínio são usados para dar nomes a conjuntos relacionados de computadores. Por exemplo, `coderdojo-lx.pt` é o nome de domínio do CoderDojo LX. Um outro nome de domínio do CoderDojo LX é `www.coderdojo-lx.pt`, que é onde se encontra o [sítio web do CoderDojo LX](https://www.coderdojo-lx.pt/).
+
+Reparaste no exemplo que demos mais acima, do [sítio web dos Nanonautas](https://nanonautas-final.glitch.me/)? Explora-o bem. Vê se consegues:
+
+- Identificar todas as páginas web do sítio.
+- Perceber qual o endereço de cada uma dessas páginas.
+
+Quantas páginas são? Cada uma tem o seu próprio endereço (URL), não é? Ou quase… Deste conta que há dois endereços que resultam na mesma página? Pois é, veremos isso mais tarde, mas a verdade é que os dois endereços `https://nanonautas-final.glitch.me/` e `https://nanonautas-final.glitch.me/index.html` correspondem à mesma página, que é a página inicial do sítio web dos Nanonautas.
+
+Reparaste também que os endereços terminam todos em `.html`? Vamos ver isso a seguir.
+
+## Os Nanonautas
+
+!! Imagem, explicação, membros
+
+## Objectivo
+
+!! O que os Nanonauta pretendem.
+
+!! O objectivo final.
+
+
+
+
