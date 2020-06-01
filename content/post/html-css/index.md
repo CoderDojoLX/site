@@ -40,6 +40,9 @@ Os exemplos do livro são:
 - [nanonautas-p22](https://glitch.com/~nanonautas-p22) – Sítio até à página 22 do livro.
 - [nanonautas-p28](https://glitch.com/~nanonautas-p28) – Sítio até à página 28 do livro.
 
+Tens também o projecto que resultou da sessão #261 (HTML/CSS #2):
+- [nanonautas-sessao2-final](https://glitch.com/~nanonautas-sessao2-final) – Projecto feito ao longo da sessão #261 (HTML/CSS #2).
+
 Lembra-te que, à medida que segues na tua aprendizagem ou que lês o livro, podes ir conferindo o que fores fazendo com estes exemplos.
 
 ### Apresentações
