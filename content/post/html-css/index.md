@@ -81,14 +81,64 @@ Reparaste também que os endereços terminam todos em `.html`? Vamos ver isso a 
 
 ## Os Nanonautas
 
-!! Imagem, explicação, membros
+![Os Nanonautas](http://nanonautas.pt/wp-content/uploads/exemplos/p84melhorada/imagens/nanonautas.jpg)
+
+Os Nanonautas são uma banda! Os seus membros são:
+
+### Daniel – Vocalista extraordinário
+
+![Retrato do Daniel](http://nanonautas.pt/wp-content/uploads/exemplos/p84melhorada/imagens/daniel.png)
+
+O Daniel é o vocalista dos Nanonautas. Ele gosta de estar sempre a cantar – e não apenas quando actua com os Nanonautas! Os seus pais dizem que ele aprendeu a cantar antes de aprender a falar!.
+
+O Daniel também toca clarinete e anda a aprender saxofone alto.
+
+### Sam – Homem da secção rítmica
+
+
+![Retrato do Sam](http://nanonautas.pt/wp-content/uploads/exemplos/p84melhorada/imagens/sam.png)
+
+O Sam traz a música no sangue desde o dia em que nasceu. Os seus pais tocam instrumentos e deram-lhe a primeira bateria quando ele tinha apenas cinco anos, o que causou problemas com os vizinhos. Em algumas canções toca guitarra baixo e noutras toca bateria. O Sam adora tocar nos Nanonautas, mas detesta ter que carregar a bateria de um lado para outro.
+
+### Holly – Se tem cordas, ela toca
+
+![Retrato da Holly](http://nanonautas.pt/wp-content/uploads/exemplos/p84melhorada/imagens/holly.png)
+
+Guitarra acústica? Guitarra eléctrica como solista? Cavaquinho? Harpa? A Holly sabe tocar tudo isso. Começou por fazer guitarras em casa com caixotes de cartão e elásticos até que o seu tio teve pena dela e lhe ofereceu uma guitarra espanhola no Natal. Após algumas aulas na escola, levantou voo!
+
+### Dervla – Maestrina dos teclados
+
+![Retrato da Dervla](http://nanonautas.pt/wp-content/uploads/exemplos/p84melhorada/imagens/dervla.png)
+
+A Dervla tem o 4.º ano de piano, mas em segredo prefere tocar teclados electrónicos. Ela gosta de sons de sintetizador e de discutir com a Holly quem deverá tocar as partes de baixo.
+
 
 ## Objectivo
 
-!! O que os Nanonauta pretendem.
+Os Nanonautas previsam de um novo sítio web. Puseram-se a pensar e chegaram às seguintes ideias para o sítio:
 
-!! O objectivo final.
+- Dizer onde será o próximo concerto
+- Anunciar CD e t-shirt
+- Ligações para vídeos nossos no YouTube
+- Conselhos sobre compra e manutenção de instrumentos
+- Conselhos sobre ensaiar sem irritar vizinhos
 
+Tentaram organizar as ideias e chegaram à seguinte estrutura com cinco páginas web:
 
+- **Início** – Página com ligações para as seguintes páginas:
+  - **Sobre nós** – Página com o seguinte conteúdo:
+    - Informação sobre a nossa banda
+    - O nosso novo CD
+    – Comprem a nossa t-shirt
+  - **As nossas canções** – Página com o seguinte conteúdo:
+    - Informação sobre as nossas canções
+    - Vídeos
+  - **Vejam-nos tocar** – Página com o seguinte conteúdo:
+    - Onde nos podem ver tocar
+	- Próximos concertos
+  - **Dar um concerto** – Página com o seguinte conteúdo:
+    - Como dar um concerto
+    - Dicas top
 
+Para ter uma ideia mais precisa do que eles pensaram, dá de novo uma olhada no [sítio web final dos Nanonautas](https://nanonautas-final.glitch.me/). A ideia é ires desenvolvendo ao pouco o sítio web dos nanonautas até ele ter o mesmo aspecto e conteúdo que viste.
 
