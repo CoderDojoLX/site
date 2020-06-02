@@ -206,21 +206,32 @@ A primeira etiqueta HTML que encontras é `<html>`. Grande parte das etiquetas H
 
 Em resumo:
 
-- `<html>` – Etiqueta de abertura do elemento `HTML`.
-- `</html>` – Etiqueta de fecho do elemento `HTML`.
-- Entre `<html>` e `</html>` – Conteúdo do elemento `HTML`.
+- **`<html>`** – Etiqueta de abertura do elemento `HTML`.
+- **`</html>`** – Etiqueta de fecho do elemento `HTML`.
+- **Entre `<html>` e `</html>`** – Conteúdo do elemento `HTML`.
 
 Mas afinal, o que é o elemento `HTML`? O elemento `HTML` identifica todo o conteúdo da página web. Por isso é que todo o resto da nossa página web é parte do conteúdo deste elemento. O elemento `HTML` contém dois outros elementos (`HEAD` e `BODY`), cada um identificado pelas respectivas etiquetas:
 
-- Elemento `HEAD` – Identificado pelas etiquetas `<head>` e `</head>`, este elemento funciona como um cabeçalho do documento, sendo o seu conteúdo informação que se aplica à página web como um todo.
-- Elemento `BODY` – Identificado pelas etiquetas `<body>` e `</body>`, este elemento funciona como corpo do documento, ou seja, o seu conteúdo é onde se coloca o conteúdo da página web, que é aquilo que se vê quando navegas para essa página.
+- **Elemento `HEAD`** – Identificado pelas etiquetas `<head>` e `</head>`, este elemento funciona como um cabeçalho do documento, sendo o seu conteúdo informação que se aplica à página web como um todo.
+- **Elemento `BODY`** – Identificado pelas etiquetas `<body>` e `</body>`, este elemento funciona como corpo do documento, ou seja, o seu conteúdo é onde se coloca o conteúdo da página web, que é aquilo que se vê quando navegas para essa página.
 
-## Alguns outros elementos fundamentais
+### Alguns outros elementos fundamentais
 
-Tanto o cabeçalho como o corpo do nosso !!!!!
+Tanto o cabeçalho como o corpo da nossa página web têm vários outros elementos de que ainda não falámos:
+
+- **Elementos do `HEAD`**:
+  - **Elemento `META`** – Este é um elemento sem conteúdo, ou seja, não tem etiqueta de fecho. Ou melhor, a sua etiqueta é ao mesmo tempo de abertura e fecho. Em bom rigor, a sua etiqueta, como a de todos os elementos sem conteúdo, ou vazios, deveria terminar em `/>`. Ou seja, deveria ser `<meta charset="UTF-8" />`. Bom, e para que é que isto serve? Dentro da etiqueta, além do seu nome, `meta`, encontras um par *`atributo`*=*`valor`*: o atributo é `charset` e o valor é `"UTF-8"`. Isto serve para dizer qual é o tipo de código usado para representar os caracteres, que neste caso é o [UTF-8](https://www.wikiwand.com/pt/UTF-8), e não é muito importante por agora.
+  - **Elemento `TITLE`** – Este elemento faz sempre alguma confusão. Ele indica qual é o título da página web. Ele é usualmente igual, ou pelo menos parecido, com o primeiro elemento `H1` da página. Só que enquanto o `H1` se vê na própria página, o `TITLE` só se vê no título da janela ou do tabulador onde a página está a ser mostrada. Para perceberes bem a diferença, faz o seguinte:
+    - Altera o conteúdo do elemento `TITLE` para «Sobre Nós – Nanonautas», ou seja, `<title>Sobre Nós – Nanonautas</title>`.
+    - Procura o menu «Share», clica em «Live App» e clica sobre o botão «copy» logo abaixo.
+    - Abre uma nova *janela* (e não separador!), pressionando em `<ctrl-N>`, no Windows, ou em `<cmd-N>`, no Mac.
+    - Clica sobre o barra de endereço da nova janela e cola lá o endereço que copiaste. Pressiona `<enter>`.
+    - Clica sobre o arquivo `sobre-nos.html`. Verás a tua nova página. Agora olha para o título da tua janela ou separador. Vês que o conteúdo do elemento `TITLE` foi lá parar? Agora já percebes para que serve.
+- **Elementos do `BODY`**:
+  - **Elemento `H1`** – !!!!!!
 
 
-## HTML: Conteúdo *estruturado* da página web
+### HTML é para conteúdo *estruturado* da página web
 
 É importante que percebas que o que escreves em HTML corresponde ao *conteúdo estruturado* das tuas páginas web. O HTML não especifica o *aspecto* das tuas páginas. Isso será o papel do CSS, que veremos em breve. Esta divisão é muitíssimo importante:
 
