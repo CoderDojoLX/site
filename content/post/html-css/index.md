@@ -66,7 +66,7 @@ Vamos começar por definir alguns conceitos, com ajuda da nossa amiga [Wikipédi
 
 **[URL](https://www.wikiwand.com/pt/URL)** – Localizador de um recurso na web, usualmente uma página web. Aos URL também se chama muitas vezes endereços web ou simplemente endereços. Por exemplo, o endereço da sítio web dos Nanonautas é dado por este URL: `https://nanonautas-final.glitch.me/`
 
-Há aqui algumas palavras meio esquisitas. Um exemplo é *[protocolo](https://www.wikiwand.com/pt/Protocolo_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))*. Simplificando muito, um protocolo é um conjunto de regras ou convenções que permite que tudo corra bem, isto é que a comunicação entre dois computadores aconteça. Os protocolos são importantes não apenas na diplomacia, mas também na comunicação entre computadores! Já reparaste que os endereços web começam todos com `http` ou `https`? Isso indica ao navegador que o protocolo a usar para comunicar com o computador (a que se chama *servidor*) onde se encontra o recurso (por exemplo, uma página web) é o [HTTP](https://www.wikiwand.com/pt/Hypertext_Transfer_Protocol) (Hypertext Transfer Protocol). A versão com um «s» no fim significa que se usa uma combinação do HTTP com outro protolo (chamado TLS) que garante que a comunicação é segura, ou seja, que ninguém que intercepte a comunicação conseguirá fazer cabo-e-rabo do que está a ser comunicado.
+Há aqui algumas palavras meio esquisitas. Um exemplo é *[protocolo](https://www.wikiwand.com/pt/Protocolo_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))*. Simplificando muito, um protocolo é um conjunto de regras ou convenções que permite que tudo corra bem, isto é que a comunicação entre dois computadores aconteça. Os protocolos são importantes não apenas na diplomacia, mas também na comunicação entre computadores! Já reparaste que os endereços web começam todos com `http` ou `https`? Isso indica ao navegador que o protocolo a usar para comunicar com o computador (a que se chama *servidor*) onde se encontra o recurso (por exemplo, uma página web) é o [HTTP](https://www.wikiwand.com/pt/Hypertext_Transfer_Protocol) (*hypertext transfer protocol* ou protoloco de transferência de hipertexto). A versão com um «s» no fim significa que se usa uma combinação do HTTP com outro protolo (chamado TLS) que garante que a comunicação é segura, ou seja, que ninguém que intercepte a comunicação conseguirá fazer cabo-e-rabo do que está a ser comunicado.
 
 Outro exemplo é a palavra *[nome de domínio](https://www.wikiwand.com/pt/Nome_de_dom%C3%ADnio)*. Os nomes de domínio são usados para dar nomes a conjuntos relacionados de computadores. Por exemplo, `coderdojo-lx.pt` é o nome de domínio do CoderDojo LX. Um outro nome de domínio do CoderDojo LX é `www.coderdojo-lx.pt`, que é onde se encontra o [sítio web do CoderDojo LX](https://www.coderdojo-lx.pt/).
 
@@ -141,4 +141,90 @@ Tentaram organizar as ideias e chegaram à seguinte estrutura com cinco páginas
     - Dicas top
 
 Para ter uma ideia mais precisa do que eles pensaram, dá de novo uma olhada no [sítio web final dos Nanonautas](https://nanonautas-final.glitch.me/). A ideia é ires desenvolvendo ao pouco o sítio web dos nanonautas até ele ter o mesmo aspecto e conteúdo que viste.
+
+## Vamos começar!
+
+### O que precisas
+
+- Descarrega o [ZIP de imagens](https://bit.ly/cdlx-nanonautas-imagens). Nota bem que há um botão para descarregar a imagem no canto superior direito.
+- Descomprime o arquivo `imagens.zip` que descarregaste. Não te limites a abri-lo: tenta descomprimi-lo mesmo.
+- Se ainda não tens conta no [Glitch](https://glitch.com/), então:
+  - Se tens pelo menos 13 anos, podes criar tu mesmo uma conta.
+  - Se tiveres menos de 13 anos, pede ajuda a um encarregado de educação.
+- Vai para a [página da equipa CoderDojo LX](https://glitch.com/@cdlx) no Glitch.
+- Abre o projecto `nanonautas-comeca-aqui`. Se não o encontrares, [clica aqui](https://glitch.com/~nanonautas-comeca-aqui).
+- Remistura o projecto, carregando no botão «Remix This», que encontras no canto inferior direito. Remisturar é fazer uma cópia tua do projecto, para o poderes alterar à vontade.
+
+### O teu novo projecto
+
+Tens à tua frente o teu novo projecto! Neste momento só tem uma página web, que podes ver do lado esquerdo. Essa página está guardada num arquivo (ou ficheiro) chamado `sobre-nos.html`. Clica sobre ele, para veres o seu conteúdo à direita, no editor. Verás que o conteúdo é simplesmente
+```
+Isto não é HTML!
+```
+Procura o menu «Show» e escolhe «Next to The Code». Abrir-se-á uma janela que mostra o conteúdo do teu sítio web. Como ainda só tens uma página, verás lá listado o arquivo `sobre-nos.html`. Clica sobre ele para o veres na web.
+
+Que achas? Pouco entusiasmente, não é? Espera, as coisas vão melhorar, não tarda.
+
+## Páginas HTML
+
+Reparaste no nome do ficheiro? Ele termina na extensão `.html`. Embora o teu navegador não ligue muito a essa extensão, ela ajuda-nos a perceber que se trata de uma página web no formato [HTML](https://www.wikiwand.com/pt/HTML) (*hypertext markup language* ou linguagem de marcação para hipertexto). O HTML é uma linguagem que permite representar e compor o conteúdo das páginas web, e é um dos principais temas em aprendizagem aqui. O HTML forma um trio com o [CSS](https://www.wikiwand.com/pt/Cascading_Style_Sheets) (*cascading style sheets* ou folhas de estilo em cascata), usadas para controlar o estilo ou aspecto das páginas web, e com o [JavaScript](https://www.wikiwand.com/pt/JavaScript), uma linguagem de programação que permite criar páginas web dinâmicas. Em conjunto, o HTML, o CSS e o JavaScript permitem criar páginas web fantásticas!
+
+Voltando ao Glitch, já viste que o conteúdo do arquivo `sobre-nos.html` é simplesmente uma linha de texto:
+```
+Isto não é HTML!
+```
+Tal como essa linha indica, o arquivo ainda não contém verdadeiro HTML. Vamos resolver esse problema. Apaga a linha `Isto não é HTML!` do arquivo `sobre-nos.html` e coloca no lugar dela o seguinte o código HTML:
+```HTML
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sobre Nós</title>
+  </head>
+  <body>
+    <h1>Sobre Nós</h1>
+    <p>Somos os Nanonautas.</p>
+    <p>Chamamo-nos Holly, Dervla, Daniel e Sam.</p>
+  </body>
+</html>
+```
+
+Se tudo correr bem, se clicares sobre o arquivo `sobre-nos.html` na janela do lado direito, verás a tua primeira página Web! Nada mau, certo? OK, OK, ainda não é grande coisa… Melhor virá, mais à frente. :-)
+
+Reparaste certamente que o HTML tem montes de `<` e `>`. A ideia é que estes caracteres funcionam como *parênteses agudos* que envolvem aquilo a que se chama *etiquetas*.
+
+A primeira etiqueta é especial. Ela deve ser colocada na linha inicial de todas as páginas web e indica claramente ao navegador que as vai mostrar que o seu conteúdo… é HTML! Isso mesmo, a etiqueta especial
+```HTML
+<!DOCTYPE html>
+```
+indica que se trata de HTML. Só depois dessa primeira linha com a etiqueta especial que vimos é que começa o HTML propriamente dito.
+
+### Principais elementos de uma página web
+
+A primeira etiqueta HTML que encontras é `<html>`. Grande parte das etiquetas HTML tem uma etiqueta de abertura, tal como `<html>`, e uma etiqueta de fecho, que é muito semelhante à etiqueta de abertura, mas tem uma `/` após o parênteses agudo esquerdo, tal como `</html>`. Cada etiqueta tem também um *nome* que identifica o *elemento* HTML que está em causa. Entre as etiquetas de abertura e fecho encontra-se o *conteúdo* do elemento.
+
+Em resumo:
+
+- `<html>` – Etiqueta de abertura do elemento `HTML`.
+- `</html>` – Etiqueta de fecho do elemento `HTML`.
+- Entre `<html>` e `</html>` – Conteúdo do elemento `HTML`.
+
+Mas afinal, o que é o elemento `HTML`? O elemento `HTML` identifica todo o conteúdo da página web. Por isso é que todo o resto da nossa página web é parte do conteúdo deste elemento. O elemento `HTML` contém dois outros elementos (`HEAD` e `BODY`), cada um identificado pelas respectivas etiquetas:
+
+- Elemento `HEAD` – Identificado pelas etiquetas `<head>` e `</head>`, este elemento funciona como um cabeçalho do documento, sendo o seu conteúdo informação que se aplica à página web como um todo.
+- Elemento `BODY` – Identificado pelas etiquetas `<body>` e `</body>`, este elemento funciona como corpo do documento, ou seja, o seu conteúdo é onde se coloca o conteúdo da página web, que é aquilo que se vê quando navegas para essa página.
+
+## Alguns outros elementos fundamentais
+
+Tanto o cabeçalho como o corpo do nosso !!!!!
+
+
+## HTML: Conteúdo *estruturado* da página web
+
+É importante que percebas que o que escreves em HTML corresponde ao *conteúdo estruturado* das tuas páginas web. O HTML não especifica o *aspecto* das tuas páginas. Isso será o papel do CSS, que veremos em breve. Esta divisão é muitíssimo importante:
+
+- Permite-te concentrares-te no conteúdo do documento quando escreves HTML
+- Permite-te usar o CSS para controlares o aspecto das tuas páginas de forma coerente: um só ficheiro CSS permite-te controlar o aspecto de *todas* as páginas do teu sítio web!
+
 
