@@ -1,86 +1,39 @@
 ---
-title: 'Programação web com HTML/CSS'
-date: 2020-05-31T18:00:08+01:00
+title: 'Introdução à Web, ao HTML e ao CSS'
+date: 2020-06-02T18:00:08+01:00
 tags: ['html', 'css', 'programação web']
 ---
 
-Vamos programar para a web com o HTML/CSS! Constrói o teu próprio sítio web aprendendo HTML/CSS à medida que constróis o sítio web dos Nanonautas!
+Nesta secção do percurso de aprendizagem [Programação web com HTML/CSS](/html-css) vamos ver o que é a web, o que são sítios e páginas web, e como podemos programar para a web usando o HTML e o CSS.
 
-## Introdução
+## Recursos
 
-### Livro
-
-![Capa do livro Criar com Código: Constrói o teu Sítio Web](http://nanonautas.pt/wp-content/uploads/2016/09/cover.jpg)
-
-Neste percurso de aprendizagem vamos seguir o livro [Criar com Código: Constrói o teu Sítio Web](http://www.planeta.pt/livro/criar-com-constroi-o-teu-sitio-web), de Clyde Hatter, editado pela Planeta. O livro pertence à colecção CoderDojo Nano que é promovida pela Fundação CoderDojo. Não deixes de ver [a página web de apoio ao livro](http://nanonautas.pt/).
-
-### Sessões
-
-Este percurso de aprendizagem foi seguido ao longo de algumas das nossas sessões remotas. Aqui vão elas:
-- [Sessão #259 (HTML/CSS #1)]({{<ref "/post/sessions/session-259">}})
-- [Sessão #261 (HTML/CSS #2)]({{<ref "/post/sessions/session-261">}})
-
-Alguns dos materiais sugeridos abaixo correspondem a estas sessões. Mas não precisas de ter participado nas sessões para seguir este percurso de aprendizagem!
-
-### Glitch
-
-Nesta sequência aconselhamos-te a usar o [Glitch](https://glitch.com/). Se tens pelo menos 13 anos e ainda não tens conta no Glitch, cria já uma! Se tens menos de 13 anos, pede ajuda ao teu encarregado de educação.
-
-Criámos no Glitch uma colecção onde encontras vários projectos de arranque e exemplos do sítio web dos Nanonautas correspondentes às várias páginas do livro. A colecção chama-se [Exemplos das sessões HTML/CSS: Programação Web](https://glitch.com/@cdlx/exemplos-das-sessoes-html-css-programacao-web). 
-
-Os projectos de arranque são:
-- **[nanonautas-começa-aqui](https://glitch.com/~nanonautas-comeca-aqui)** – Projecto com que deves começar este percurso de aprendizagem e que foi usado na sessão #259 (HTML/CSS #1).
-- **[nanonautas-sessao2](https://glitch.com/~nanonautas-sessao2)** – Projecto com que podes começar a sessão #261 (HTML/CSS #2).
-
-Os exemplos do livro são:
-- **[nanonautas-p8](https://glitch.com/~nanonautas-p8)** – Sítio até à página 8 do livro.
-- **[nanonautas-p10](https://glitch.com/~nanonautas-p10)** – Sítio até à página 10 do livro.
-- **[nanonautas-p13](https://glitch.com/~nanonautas-p13)** – Sítio até à página 13 do livro.
-- **[nanonautas-p16](https://glitch.com/~nanonautas-p16)** – Sítio até à página 16 do livro.
-- **[nanonautas-p18](https://glitch.com/~nanonautas-p18)** – Sítio até à página 18 do livro.
-- **[nanonautas-p22](https://glitch.com/~nanonautas-p22)** – Sítio até à página 22 do livro.
-- **[nanonautas-p28](https://glitch.com/~nanonautas-p28)** – Sítio até à página 28 do livro.
-
-Tens também o projecto que resultou da sessão #261 (HTML/CSS #2):
-- **[nanonautas-sessao2-final](https://glitch.com/~nanonautas-sessao2-final)** – Projecto feito ao longo da sessão #261 (HTML/CSS #2).
-
-Lembra-te que, à medida que segues na tua aprendizagem ou que lês o livro, podes ir conferindo o que fores fazendo com estes exemplos.
-
-### Apresentações
-
-Fomos preparando várias apresentações para cada uma das sessões que realizámos remotamente sobre este percurso de aprendizagem. Talvez aches útil vê-las! Estão aqui:
-- [Apresentação da sessão #259 (HTML/CSS #1)](https://bit.ly/cdlx-html1)
-- [Apresentação da sessão #261 (HTML/CSS #2)](https://bit.ly/cdlx-html2)
+- **[Sessão #259 (HTML/CSS #1)]({{<ref "/post/sessions/session-259">}})** – Sessão do CoderDojo LX correspondente a esta secção.
+- **[Apresentação da sessão #259 (HTML/CSS #1)](https://bit.ly/cdlx-html1)** – A apresentação usada nessa sessão.
+- **[nanonautas-começa-aqui](https://glitch.com/~nanonautas-comeca-aqui)** – Projecto com que deves começar esta secção.
+– Os exemplos do livro correspondentes a esta sessão:
+- **[nanonautas-p8](https://glitch.com/~nanonautas-p8)** – Projecto até à página 8 do livro.
+- **[nanonautas-p10](https://glitch.com/~nanonautas-p10)** – Projecto até à página 10 do livro.
+- **[nanonautas-p13](https://glitch.com/~nanonautas-p13)** – Projecto até à página 13 do livro.
+- **[nanonautas-p16](https://glitch.com/~nanonautas-p16)** – Projecto até à página 16 do livro.
 
 ## A Internet, a Web, páginas, sítios e endereços
 
 Vamos começar por definir alguns conceitos, com ajuda da nossa amiga [Wikipédia](https://pt.wikipedia.org/):
 
-**[Internet](https://www.wikiwand.com/pt/Internet)** – Sistema global de redes de computadores interligadas que usam um conjunto próprio de *protocolos* chamado Internet Protocol Suite ou TCP/IP e tem como objectivo servir cada vez mais utilizadores no mundo inteiro.
+- **[Internet](https://www.wikiwand.com/pt/Internet)** – Sistema global de redes de computadores interligadas que usam um conjunto próprio de *protocolos* chamado Internet Protocol Suite ou TCP/IP e tem como objectivo servir cada vez mais utilizadores no mundo inteiro.
+- **[Web ou World Wide Web](https://www.wikiwand.com/pt/World_Wide_Web)** – Sistema de documentos de vários tipos (texto, imagens, vídeos, sons, etc.), muitos deles **hipetexto**, interligados e acessíveis na Internet.
+- **[Sítio web](https://www.wikiwand.com/pt/S%C3%ADtio_eletr%C3%B3nico)** – Conjunto de **páginas web** relacionadas disponíveis num mesmo *nome de domínio*, por exemplo o [sítio web dos Nanonautas](https://nanonautas-final.glitch.me/) (que é onde chegaremos no final deste percurso de aprendizagem).
+- **[Página web](https://www.wikiwand.com/pt/P%C3%A1gina_web)** – Um documento ou recurso em **hipertexto** disponível na Web a que se pode aceder usando um navegador e que tem um dado endereço, ou melhor, um dado **URL**.
+- **[Hipertexto](https://www.wikiwand.com/pt/Hipertexto)** – Documento com ligações (mais precisamente, hiperligações) a outros documentos ou recursos.
+- **[URL](https://www.wikiwand.com/pt/URL)** ou **endereço** – Localizador de um recurso na web, usualmente uma página web. Aos URL também se chama muitas vezes endereços web ou simplemente endereços. Por exemplo, o endereço do sítio web dos Nanonautas é dado por este URL: `https://nanonautas-final.glitch.me/`.
+- **[Navegador](https://www.wikiwand.com/pt/Navegador_web)** – Uma aplicação para aceder à informação que está na Web. Quando o utilizador pede ao navegador para mostrar uma dada página de um sítio web, indicando o seu endereço, o navegador vai buscar essa página web ao *servidor* web apropriado e mostra essa página numa janela do computador.
 
-**[Web ou World Wide Web](https://www.wikiwand.com/pt/World_Wide_Web)** – Sistema de documentos de vários tipos (texto, imagens, vídeos, sons, etc.), muitos deles **hipetexto**, interligados e acessíveis na Internet.
+Há nestas definições três palavras ou expressões meio esquisitas: «protocolo» e «nome de domínio». Vamos ver o que significam:
 
-**[Sítio web](https://www.wikiwand.com/pt/S%C3%ADtio_eletr%C3%B3nico)** – Conjunto de **páginas web** relacionadas disponíveis num mesmo *nome de domínio*, por exemplo o [sítio web dos Nanonautas](https://nanonautas-final.glitch.me/) (que é onde chegaremos no final deste percurso de aprendizagem).
-
-**[Página web](https://www.wikiwand.com/pt/P%C3%A1gina_web)** – Um documento ou recurso em **hipertexto** disponível na Web a que se pode aceder usando um navegador e que tem um dado endereço, ou melhor, um dado **URL**.
-
-**[Hipertexto](https://www.wikiwand.com/pt/Hipertexto)** – Documento com ligações (mais precisamente, hiperligações) a outros documentos ou recursos.
-
-**[URL](https://www.wikiwand.com/pt/URL)** ou **endereço** – Localizador de um recurso na web, usualmente uma página web. Aos URL também se chama muitas vezes endereços web ou simplemente endereços. Por exemplo, o endereço do sítio web dos Nanonautas é dado por este URL: `https://nanonautas-final.glitch.me/`.
-
-**[Navegador](https://www.wikiwand.com/pt/Navegador_web)** – Uma aplicação para aceder à informação que está na Web. Quando o utilizador pede ao navegador para mostrar uma dada página de um sítio web, indicando o seu endereço, o navegador vai buscar essa página web ao *servidor* web apropriado e mostra essa página numa janela do computador.
-
-um programa que habilita seus usuários a interagirem com documentos HTML hospedados em um servidor da rede.
-
-a software application for accessing information on the World Wide Web. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the page on the screen.
-
-Há nestas definições três palavras ou expressões meio esquisitas: «protocolo» e «nome de domínio». Vamos ver o que significam.
-
-**[Protocolo](https://www.wikiwand.com/pt/Protocolo_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))** – Simplificando muito, um protocolo é um conjunto de regras ou convenções que permite que tudo corra bem, isto é que a comunicação entre dois computadores aconteça. Os protocolos são importantes não apenas na diplomacia, mas também na comunicação entre computadores! Já reparaste que os endereços web começam todos com `http` ou `https`? Isso indica ao navegador que o protocolo a usar para comunicar com o computador (a que se chama *servidor*) onde se encontra o recurso (por exemplo, uma página web) é o [HTTP](https://www.wikiwand.com/pt/Hypertext_Transfer_Protocol) (*hypertext transfer protocol* ou protoloco de transferência de hipertexto). A versão com um «s» no fim significa que se usa uma combinação do HTTP com outro protolo (chamado TLS) que garante que a comunicação é segura, ou seja, que ninguém que intercepte a comunicação conseguirá fazer cabo-e-rabo do que está a ser comunicado.
-
-**[Servidor](https://www.wikiwand.com/pt/Servidor_(computa%C3%A7%C3%A3o))** – Um programa ou dispositivo (por exemplo, um computador) que fornece *serviços* (daí o nome «servidor») a outros programas ou dispositivos, a que se chama clientes. No caso de um servidor web, os clientes são normalmente os nossos navegadores web, que comunicam com os servidores web usando o protocolo HTTP, pedindo-lhes páginas web e recebendo essas páginas como resposta.
-
-**[Nome de domínio](https://www.wikiwand.com/pt/Nome_de_dom%C3%ADnio)** – Os nomes de domínio são usados para dar nomes a conjuntos relacionados de computadores. Por exemplo, `coderdojo-lx.pt` é o nome de domínio do CoderDojo LX. Um outro nome de domínio do CoderDojo LX é `www.coderdojo-lx.pt`, que é onde se encontra o [sítio web do CoderDojo LX](https://www.coderdojo-lx.pt/).
+- **[Protocolo](https://www.wikiwand.com/pt/Protocolo_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))** – Simplificando muito, um protocolo é um conjunto de regras ou convenções que permite que tudo corra bem, isto é que a comunicação entre dois computadores aconteça. Os protocolos são importantes não apenas na diplomacia, mas também na comunicação entre computadores! Já reparaste que os endereços web começam todos com `http` ou `https`? Isso indica ao navegador que o protocolo a usar para comunicar com o computador (a que se chama *servidor*) onde se encontra o recurso (por exemplo, uma página web) é o [HTTP](https://www.wikiwand.com/pt/Hypertext_Transfer_Protocol) (*hypertext transfer protocol* ou protoloco de transferência de hipertexto). A versão com um «s» no fim significa que se usa uma combinação do HTTP com outro protolo (chamado TLS) que garante que a comunicação é segura, ou seja, que ninguém que intercepte a comunicação conseguirá fazer cabo-e-rabo do que está a ser comunicado.
+- **[Servidor](https://www.wikiwand.com/pt/Servidor_(computa%C3%A7%C3%A3o))** – Um programa ou dispositivo (por exemplo, um computador) que fornece *serviços* (daí o nome «servidor») a outros programas ou dispositivos, a que se chama clientes. No caso de um servidor web, os clientes são normalmente os nossos navegadores web, que comunicam com os servidores web usando o protocolo HTTP, pedindo-lhes páginas web e recebendo essas páginas como resposta.
+- **[Nome de domínio](https://www.wikiwand.com/pt/Nome_de_dom%C3%ADnio)** – Os nomes de domínio são usados para dar nomes a conjuntos relacionados de computadores. Por exemplo, `coderdojo-lx.pt` é o nome de domínio do CoderDojo LX. Um outro nome de domínio do CoderDojo LX é `www.coderdojo-lx.pt`, que é onde se encontra o [sítio web do CoderDojo LX](https://www.coderdojo-lx.pt/).
 
 
 Reparaste no exemplo que demos mais acima, do [sítio web dos Nanonautas](https://nanonautas-final.glitch.me/)? Explora-o bem. Vê se consegues:
@@ -167,7 +120,7 @@ Para ter uma ideia mais precisa do que eles pensaram, dá de novo uma olhada no 
   - Se tens pelo menos 13 anos, podes criar tu mesmo uma conta.
   - Se tiveres menos de 13 anos, pede ajuda a um encarregado de educação.
 - Vai para a [página da equipa CoderDojo LX](https://glitch.com/@cdlx) no Glitch.
-- Abre o projecto `nanonautas-comeca-aqui`. Se não o encontrares, [clica aqui](https://glitch.com/~nanonautas-comeca-aqui).
+- Abre o projecto `nanonautas-comeca-aqui`. Se não encontrares o projecto, [clica aqui](https://glitch.com/~nanonautas-comeca-aqui).
 - Remistura o projecto, carregando no botão «Remix This», que encontras no canto inferior direito. Remisturar é fazer uma cópia tua do projecto, para o poderes alterar à vontade.
 
 ### O teu novo projecto
@@ -225,7 +178,7 @@ Em resumo:
 - **`</html>`** – Etiqueta de fecho do elemento `HTML`.
 - **Entre `<html>` e `</html>`** – Conteúdo do elemento `HTML`.
 
-Mas afinal, o que é o elemento `HTML`? O elemento `HTML` identifica todo a informação sobre a página web. Por isso é que todo o resto da nossa página web é parte do conteúdo deste elemento. O elemento `HTML` contém dois outros elementos (`HEAD` e `BODY`), cada um identificado pelas respectivas etiquetas:
+Mas afinal, o que é o elemento `HTML`? O elemento `HTML` identifica toda a informação sobre a página web. Por isso é que todo o resto da nossa página web é parte do conteúdo deste elemento. O elemento `HTML` contém dois outros elementos (`HEAD` e `BODY`), cada um identificado pelas respectivas etiquetas:
 
 - **Elemento `HEAD`** – Identificado pelas etiquetas `<head>` e `</head>`, este elemento funciona como um cabeçalho do documento, sendo o seu conteúdo informação que se aplica à página web como um todo.
 - **Elemento `BODY`** – Identificado pelas etiquetas `<body>` e `</body>`, este elemento funciona como corpo do documento, ou seja, o seu conteúdo é onde se coloca o conteúdo da página web, que é aquilo que se vê quando navegas para essa página.
@@ -277,7 +230,7 @@ O segundo elemento do nosso trio maravilha é o CSS. Vamos usar o CSS para criar
 Verás que foi criado um novo arquivo, chamado `minha-folha-de-estilo.css`, numa pasta chamada `css`.
 
 {{< note >}}
-No Glitch as pastas são criadas automaticamente, se ainda não existirem, sempre que o nome dos ficheiros a criar contém o caractere `/`, que funciona como separador entre os nomes da(s) pasta(s) e o nome do arquivo. 
+No Glitch as pastas são criadas automaticamente, se ainda não existirem, sempre que o nome dos ficheiros a criar contém o caractere <code>/</code>, que funciona como separador entre os nomes da(s) pasta(s) e o nome do arquivo. 
 {{< /note >}}
 
 Neste momento, a estrutura dos teus ficheiros é a seguinte:
@@ -292,7 +245,7 @@ No painel da direita deverá também ter ficado visível a nova pasta. Confirma-
 O novo arquivo que criámos termina com a extensão `.css`, para mais facilmente o identificarmos como uma folha de estilo representada em CSS.
 
 {{< note >}}
-Uma folha de estilo serve para tu, num único local, indicares quais a regras visuais a aplicar aos elementos das páginas web representadas em HTML que usem essa folha de estilos. Ou seja, uma folha de estilo controla o *aspecto* das páginas do teu sítio web.
+Uma folha de estilo serve para tu, num único local, indicares quais a regras visuais a aplicar aos elementos das páginas web representadas em HTML que usem essa folha de estilos. Ou seja, uma folha de estilo controla o <strong>aspecto</strong> das páginas do teu sítio web.
 {{< /note >}}
 
 Neste momento a folha de estilo `minha-folha-de-estilo.css` está vazia. Coloca nela o seguinte código.
@@ -305,7 +258,7 @@ body {
 
 Se fores agora ver, no painel da direita, o aspecto da tua página web `sobre-nos.html`, verás que… nada mudou! Isso acontece porque tens de dizer que ao navegador que folha de estilo queres que seja aplicada à tua página web. Como ainda não o fizeste, nada mudou.
 
-Para resolveres o problema, clica no arquivo `sobre-nos.html` no painel da esquerda e adiciona o elemento `LINK`abaixo, de modo a ficares com o seguinte conteúdo:
+Para resolveres o problema, clica no arquivo `sobre-nos.html` no painel da esquerda e adiciona o elemento `LINK` abaixo, de modo a ficares com o seguinte conteúdo:
 ```HTML
 <!DOCTYPE html>
 
@@ -322,6 +275,11 @@ Para resolveres o problema, clica no arquivo `sobre-nos.html` no painel da esque
   </body>
 </html>
 ```
+
+{{< note >}}
+Toma atenção que nestas caixas de código as linhas mais longas não se vêem todas. Tens de deslizar na horizontal o conteúdo da caixa para as veres por completo.
+{{< /note >}}
+
 O elemento `LINK` é um elemento vazio. Por isso não tem etiqueta de abertura e fecho. Pelo contrário, tem apenas uma etiqueta que termina em `/>`. Este elemento chama-se `LINK` porque faz uma ligação entre a página web e um recurso usado por essa página. Neste caso faz a ligação entre a tua página web `sobre-nos.html` e a tua folha de estilos `css/minha-folha-de-estilo.css`. O elemento tem três atributos:
 - **`type`** – Indica o tipo do recurso. O valor `"text/css"` indica que o recurso é do tipo CSS.
 - **`rel`** – Indica a relação (daí `rel`) entre a página web e o recurso. O valor `"stylesheet"` indica que a relação é entre a página web e uma folha de estilo.
@@ -353,7 +311,7 @@ body {
 {{< /code >}}
 
 1. A propriedade **`font-family`** controla o tipo de letra a usar. Como a nossa regra se aplica a todo o corpo, este tipo de letra vai aplicar-se a todo o texto da nossa página web.
-2. O valor **`sans-serif`** escolhido para a propriedade `font-family` indica que desejamos um tipo de letra sem serifas. A utilização de `sans-serif` diz ao navegadores para usar um tipo de letra à sua escolha, desde que não tenha serifas. Tem a vantagem de não nos obrigar a indicar um tipo de letra específico.
+2. O valor **`sans-serif`** escolhido para a propriedade `font-family` indica que desejamos um tipo de letra sem serifas. A utilização de `sans-serif` diz ao navegadores para usarem um tipo de letra à sua escolha, desde que não tenha serifas. Tem a vantagem de não nos obrigar a indicar um tipo de letra específico.
 
 Faz as seguintes experiências:
 - Usa `serif` na regra acima. Qual o resultado?
