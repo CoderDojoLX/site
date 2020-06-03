@@ -54,5 +54,5 @@ Fomos preparando várias apresentações para cada uma das sessões que realizá
 
 ## Percurso de aprendizagem
 
-Segue as ligações abaixo para ires percorrendo este percurso de aprendizagem:
+Segue as ligações abaixo para ires percorrendo as lições deste percurso de aprendizagem:
 - [Introdução à Web, ao HTML e ao CSS]({{<relref "post/html-css1.md">}})

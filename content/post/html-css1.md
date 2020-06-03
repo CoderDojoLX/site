@@ -4,7 +4,7 @@ date: 2020-06-02T18:00:08+01:00
 tags: ['html', 'css', 'programação web']
 ---
 
-Nesta secção do percurso de aprendizagem [Programação web com HTML/CSS](/html-css) vamos ver o que é a web, o que são sítios e páginas web, e como podemos programar para a web usando o HTML e o CSS.
+Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS](/html-css) vamos ver o que é a web, o que são sítios e páginas web, e como podemos programar para a web usando o HTML e o CSS.
 
 ## Recursos
 
@@ -319,12 +319,76 @@ Faz as seguintes experiências:
 
 ## Imagens
 
-Adicionar ao Glitch.
+A página `sobre-nos.html` ficaria muito melhor com uma imagem. Vamos adicioná-la. Para isso:
+- Mantem o Glitch aberto no teu projecto.
+- Vai ao explorador de ficheiros no teu sistema operativo e localiza a imagem `nanonautas.jpg`. Arrasta-a para cima do teu projecto Glitch. A tua imagem deve surgir nos «assets» do projecto. Clica sobre «assets», no painel esquerdo, para a veres.
 
-Adicionar ao HTML
+Agora que já temos a imagem no projecto, vamos adicioná-la à página. Clica no arquivo `sobre-nos.html` no painel da esquerda e adiciona o elemento `IMG` abaixo, dentro do correspondente elemento `P`, de modo a ficares com o seguinte conteúdo:
+```HTML
+<!DOCTYPE html>
 
-O elemento `IMG` e os seus atributos.
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sobre Nós</title>
+    <link type="text/css" rel="stylesheet" href="css/minha-folha-de-estilo.css"/>
+  </head>
+  <body>
+    <h1>Sobre Nós</h1>
+    <p><img src="URL da imagem" alt="Retrato dos Nanonautas"/></p>
+    <p>Somos os Nanonautas.</p>
+    <p>Chamamo-nos Holly, Dervla, Daniel e Sam.</p>
+  </body>
+</html>
+```
 
-O endereço da imagem.
+Agora, no painel da direita, clica sobre `sobre-nos.html`. Vês a imagem? Não a vez, certo? Em vez dela, surge o texto «Retrato dos Nanonautas». Para corrigires o problema:
+- Volta a clicar sobre «assets» no painel da esquerda.
+- Clica sobre a tua imagem. O Glitch abre a imagem e mostra-te o endereço onde ela ficou.
+- Clica no botão «Copy», à direita do endereço.
+- Volta ao arquivo `sobre-nos.html`.
+- Apaga o texto «URL da imagem» (mas não apagues as aspas!) e cola, entre as aspas, o endereço que copiaste.
+- Clica sobre `sobre-nos.html` no painel da direita.
 
-Vendo o resultado.
+Se tudo correu bem, já deves conseguir ver a imagem!
+
+Mas, afinal, como funciona o elemento `IMG`? Já deves ter reparado que é um elemento vazio, pois a sua etiqueta termina em `/>`. A parte interessante são os seus atributos:
+- **`src`** – O nome é uma abreviatura de *source*, ou seja, fonte. O seu valor, que foi onde colocaste o endereço da imagem, indica onde a imagem pode ser encontrada.
+- **`alt`** – O nome é uma abreviatura de *alternate text* ou texto alternativo. O seu valor, que neste caso é `"Retrato dos Nanonautas"`, é um texto que explica o que a imagem é. Lembras-te quando olhaste para a página `sobre-nos.html` antes de corrigir o endereço da imagem? Este texto surgia na página. Quando corrigiste o endereço, este texto deixou de se ver. O texto alternativo é usado sempre que não seja possível ver a imagem. O caso mais importante de utilização é quando quem está a navegar pelas nossas páginas é invisual. Os invisuais navegam na web com recurso a *software* que lhes lê o conteúdo das páginas. Sem esse texto alternativo, um invisual poderia saber que a página tem uma imagem, mas não poderia saber o que a imagem representa. É fundamental fazermos as nossas páginas acessíveis por todos!
+
+## Mais uma página
+
+Para completarmos esta lição, vamos adicionar mais uma página. Adiciona mais um arquivo ao teu projecto chamado `as-nossas-cancoes.html`. Se não te lembrares como se cria um arquivo, volta um pouco a trás nesta lição. Agora, coloca o seguinte conteúdo nesse arquivo:
+
+{{< code numbered="true" >}}
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>As Nossas Canções</title>
+    <link type="text/css" rel="stylesheet" href="css/minha-folha-de-estilo.css"/>
+  </head>
+  <body>
+    <h1>As Nossas Canções</h1>
+    <p>Eis uma lista das canções que sabemos tocar:</p>
+    [[[<ul>]]]
+      [[[<li>Magical Mystery Bug</li>]]]
+      <li>Boot It</li>
+      <li>The Long and Winding Code</li>
+      <li>Dojo Dancing</li>
+      <li>Empty Elements</li>
+      <li>Java Chameleon</li>
+    </ul>
+  </body>
+</html>
+{{< /code >}}
+
+1. O elemento `UL` serve para criares uma lista. O nome `UL` vem de *unordered list*, ou seja, uma lista de itens sem número de ordem, em que cada item é marcado por uma bola. Dá uma olhada na página. Vês as bolas? Experimenta agora usar `<ol>` e `</ol>` em vez de `<ul>` e `</ul>`. Vês a diferença? Pois. O nome `OL` vem de *ordered list*, ou lista ordenada. Por isso as bolas foram substituídas por números. E quanto ao conteúdo deste elemento? Ele é constituído por uma lista de itens, cada um dos quais especificado através de um elemento `LI`:
+2. O elemento `LI` representa cada um dos itens da lista. O seu nome significa *list item*, ou seja, item de lista. O conteúdo de cada um destes elementos é o texto (e outras coisas) que deve constar como item da lista.
+
+Dá uma nova olhada na nova página, no painel direito. Parece-te bem? Perfeito! Agora falta adicionarmos as página em falta, incluindo uma página muito importante, que é a página de início. Sem ela, ao chegares ao teu sítio web só verias uma feia lista de páginas, não é? Vamos resolver este problema na próxima lição.
+
+{{< note >}}
+Confirma que o teu sítio web, e todas as suas páginas, se assemelham a <a href="https://nanonautas-p16.glitch.me" target=_blank>este projecto</a>. Se algo falhar, compara o teu projecto com o que podes encontrar <a href="https://glitch.com/~nanonautas-p16" target=_blank>aqui</a> e depois clica em «View Source».
+{{< /note >}}
