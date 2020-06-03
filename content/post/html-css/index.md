@@ -10,6 +10,8 @@ Vamos programar para a web com o HTML/CSS! Constrói o teu próprio sítio web a
 
 ### Livro
 
+![Capa do livro Criar com Código: Constrói o teu Sítio Web](http://nanonautas.pt/wp-content/uploads/2016/09/cover.jpg)
+
 Neste percurso de aprendizagem vamos seguir o livro [Criar com Código: Constrói o teu Sítio Web](http://www.planeta.pt/livro/criar-com-constroi-o-teu-sitio-web), de Clyde Hatter, editado pela Planeta. O livro pertence à colecção CoderDojo Nano que é promovida pela Fundação CoderDojo. Não deixes de ver [a página web de apoio ao livro](http://nanonautas.pt/).
 
 ### Sessões
@@ -24,23 +26,23 @@ Alguns dos materiais sugeridos abaixo correspondem a estas sessões. Mas não pr
 
 Nesta sequência aconselhamos-te a usar o [Glitch](https://glitch.com/). Se tens pelo menos 13 anos e ainda não tens conta no Glitch, cria já uma! Se tens menos de 13 anos, pede ajuda ao teu encarregado de educação.
 
-Criámos no Glitch uma colecção onde encontras vários projecto de arranque ou os exemplos do sítio web dos Nanonautas correspondentes às várias páginas do livro. A colecção chama-se [Exemplos das sessões HTML/CSS: Programação Web](https://glitch.com/@cdlx/exemplos-das-sessoes-html-css-programacao-web). 
+Criámos no Glitch uma colecção onde encontras vários projectos de arranque e exemplos do sítio web dos Nanonautas correspondentes às várias páginas do livro. A colecção chama-se [Exemplos das sessões HTML/CSS: Programação Web](https://glitch.com/@cdlx/exemplos-das-sessoes-html-css-programacao-web). 
 
 Os projectos de arranque são:
-- [nanonautas-começa-aqui](https://glitch.com/~nanonautas-comeca-aqui) – Projecto com que deves começar este percurso de aprendizagem e que foi usado na sessão #259 (HTML/CSS #1).
-- [nanonautas-sessao2](https://glitch.com/~nanonautas-sessao2) – Projecto com que podes começar a sessão #261 (HTML/CSS #2).
+- **[nanonautas-começa-aqui](https://glitch.com/~nanonautas-comeca-aqui)** – Projecto com que deves começar este percurso de aprendizagem e que foi usado na sessão #259 (HTML/CSS #1).
+- **[nanonautas-sessao2](https://glitch.com/~nanonautas-sessao2)** – Projecto com que podes começar a sessão #261 (HTML/CSS #2).
 
 Os exemplos do livro são:
-- [nanonautas-p8](https://glitch.com/~nanonautas-p8) – Sítio até à página 8 do livro.
-- [nanonautas-p10](https://glitch.com/~nanonautas-p10) – Sítio até à página 10 do livro.
-- [nanonautas-p13](https://glitch.com/~nanonautas-p13) – Sítio até à página 13 do livro.
-- [nanonautas-p16](https://glitch.com/~nanonautas-p16) – Sítio até à página 16 do livro.
-- [nanonautas-p18](https://glitch.com/~nanonautas-p18) – Sítio até à página 18 do livro.
-- [nanonautas-p22](https://glitch.com/~nanonautas-p22) – Sítio até à página 22 do livro.
-- [nanonautas-p28](https://glitch.com/~nanonautas-p28) – Sítio até à página 28 do livro.
+- **[nanonautas-p8](https://glitch.com/~nanonautas-p8)** – Sítio até à página 8 do livro.
+- **[nanonautas-p10](https://glitch.com/~nanonautas-p10)** – Sítio até à página 10 do livro.
+- **[nanonautas-p13](https://glitch.com/~nanonautas-p13)** – Sítio até à página 13 do livro.
+- **[nanonautas-p16](https://glitch.com/~nanonautas-p16)** – Sítio até à página 16 do livro.
+- **[nanonautas-p18](https://glitch.com/~nanonautas-p18)** – Sítio até à página 18 do livro.
+- **[nanonautas-p22](https://glitch.com/~nanonautas-p22)** – Sítio até à página 22 do livro.
+- **[nanonautas-p28](https://glitch.com/~nanonautas-p28)** – Sítio até à página 28 do livro.
 
 Tens também o projecto que resultou da sessão #261 (HTML/CSS #2):
-- [nanonautas-sessao2-final](https://glitch.com/~nanonautas-sessao2-final) – Projecto feito ao longo da sessão #261 (HTML/CSS #2).
+- **[nanonautas-sessao2-final](https://glitch.com/~nanonautas-sessao2-final)** – Projecto feito ao longo da sessão #261 (HTML/CSS #2).
 
 Lembra-te que, à medida que segues na tua aprendizagem ou que lês o livro, podes ir conferindo o que fores fazendo com estes exemplos.
 
@@ -64,11 +66,22 @@ Vamos começar por definir alguns conceitos, com ajuda da nossa amiga [Wikipédi
 
 **[Hipertexto](https://www.wikiwand.com/pt/Hipertexto)** – Documento com ligações (mais precisamente, hiperligações) a outros documentos ou recursos.
 
-**[URL](https://www.wikiwand.com/pt/URL)** – Localizador de um recurso na web, usualmente uma página web. Aos URL também se chama muitas vezes endereços web ou simplemente endereços. Por exemplo, o endereço da sítio web dos Nanonautas é dado por este URL: `https://nanonautas-final.glitch.me/`
+**[URL](https://www.wikiwand.com/pt/URL)** ou **endereço** – Localizador de um recurso na web, usualmente uma página web. Aos URL também se chama muitas vezes endereços web ou simplemente endereços. Por exemplo, o endereço do sítio web dos Nanonautas é dado por este URL: `https://nanonautas-final.glitch.me/`.
 
-Há aqui algumas palavras meio esquisitas. Um exemplo é *[protocolo](https://www.wikiwand.com/pt/Protocolo_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))*. Simplificando muito, um protocolo é um conjunto de regras ou convenções que permite que tudo corra bem, isto é que a comunicação entre dois computadores aconteça. Os protocolos são importantes não apenas na diplomacia, mas também na comunicação entre computadores! Já reparaste que os endereços web começam todos com `http` ou `https`? Isso indica ao navegador que o protocolo a usar para comunicar com o computador (a que se chama *servidor*) onde se encontra o recurso (por exemplo, uma página web) é o [HTTP](https://www.wikiwand.com/pt/Hypertext_Transfer_Protocol) (*hypertext transfer protocol* ou protoloco de transferência de hipertexto). A versão com um «s» no fim significa que se usa uma combinação do HTTP com outro protolo (chamado TLS) que garante que a comunicação é segura, ou seja, que ninguém que intercepte a comunicação conseguirá fazer cabo-e-rabo do que está a ser comunicado.
+**[Navegador](https://www.wikiwand.com/pt/Navegador_web)** – Uma aplicação para aceder à informação que está na Web. Quando o utilizador pede ao navegador para mostrar uma dada página de um sítio web, indicando o seu endereço, o navegador vai buscar essa página web ao *servidor* web apropriado e mostra essa página numa janela do computador.
 
-Outro exemplo é a palavra *[nome de domínio](https://www.wikiwand.com/pt/Nome_de_dom%C3%ADnio)*. Os nomes de domínio são usados para dar nomes a conjuntos relacionados de computadores. Por exemplo, `coderdojo-lx.pt` é o nome de domínio do CoderDojo LX. Um outro nome de domínio do CoderDojo LX é `www.coderdojo-lx.pt`, que é onde se encontra o [sítio web do CoderDojo LX](https://www.coderdojo-lx.pt/).
+um programa que habilita seus usuários a interagirem com documentos HTML hospedados em um servidor da rede.
+
+a software application for accessing information on the World Wide Web. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the page on the screen.
+
+Há nestas definições três palavras ou expressões meio esquisitas: «protocolo» e «nome de domínio». Vamos ver o que significam.
+
+**[Protocolo](https://www.wikiwand.com/pt/Protocolo_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))** – Simplificando muito, um protocolo é um conjunto de regras ou convenções que permite que tudo corra bem, isto é que a comunicação entre dois computadores aconteça. Os protocolos são importantes não apenas na diplomacia, mas também na comunicação entre computadores! Já reparaste que os endereços web começam todos com `http` ou `https`? Isso indica ao navegador que o protocolo a usar para comunicar com o computador (a que se chama *servidor*) onde se encontra o recurso (por exemplo, uma página web) é o [HTTP](https://www.wikiwand.com/pt/Hypertext_Transfer_Protocol) (*hypertext transfer protocol* ou protoloco de transferência de hipertexto). A versão com um «s» no fim significa que se usa uma combinação do HTTP com outro protolo (chamado TLS) que garante que a comunicação é segura, ou seja, que ninguém que intercepte a comunicação conseguirá fazer cabo-e-rabo do que está a ser comunicado.
+
+**[Servidor](https://www.wikiwand.com/pt/Servidor_(computa%C3%A7%C3%A3o))** – Um programa ou dispositivo (por exemplo, um computador) que fornece *serviços* (daí o nome «servidor») a outros programas ou dispositivos, a que se chama clientes. No caso de um servidor web, os clientes são normalmente os nossos navegadores web, que comunicam com os servidores web usando o protocolo HTTP, pedindo-lhes páginas web e recebendo essas páginas como resposta.
+
+**[Nome de domínio](https://www.wikiwand.com/pt/Nome_de_dom%C3%ADnio)** – Os nomes de domínio são usados para dar nomes a conjuntos relacionados de computadores. Por exemplo, `coderdojo-lx.pt` é o nome de domínio do CoderDojo LX. Um outro nome de domínio do CoderDojo LX é `www.coderdojo-lx.pt`, que é onde se encontra o [sítio web do CoderDojo LX](https://www.coderdojo-lx.pt/).
+
 
 Reparaste no exemplo que demos mais acima, do [sítio web dos Nanonautas](https://nanonautas-final.glitch.me/)? Explora-o bem. Vê se consegues:
 
@@ -78,6 +91,8 @@ Reparaste no exemplo que demos mais acima, do [sítio web dos Nanonautas](https:
 Quantas páginas são? Cada uma tem o seu próprio endereço (URL), não é? Ou quase… Deste conta que há dois endereços que resultam na mesma página? Pois é, veremos isso mais tarde, mas a verdade é que os dois endereços `https://nanonautas-final.glitch.me/` e `https://nanonautas-final.glitch.me/index.html` correspondem à mesma página, que é a página inicial do sítio web dos Nanonautas.
 
 Reparaste também que os endereços terminam todos em `.html`? Vamos ver isso a seguir.
+
+Antes, porém, vamos apresentar Os Nanonautas!
 
 ## Os Nanonautas
 
@@ -115,11 +130,11 @@ A Dervla tem o 4.º ano de piano, mas em segredo prefere tocar teclados electró
 
 ## Objectivo
 
-Os Nanonautas previsam de um novo sítio web. Puseram-se a pensar e chegaram às seguintes ideias para o sítio:
+Agora que os Nanonautas estão apresentados, é hora de saber o que eles precisam: um novo sítio web! Puseram-se a pensar sobre o que o novo sítio web deveria ser e chegaram às seguintes ideias:
 
 - Dizer onde será o próximo concerto
 - Anunciar CD e t-shirt
-- Ligações para vídeos nossos no YouTube
+- Ligações para vídeos deles no YouTube
 - Conselhos sobre compra e manutenção de instrumentos
 - Conselhos sobre ensaiar sem irritar vizinhos
 
@@ -129,7 +144,7 @@ Tentaram organizar as ideias e chegaram à seguinte estrutura com cinco páginas
   - **Sobre nós** – Página com o seguinte conteúdo:
     - Informação sobre a nossa banda
     - O nosso novo CD
-    – Comprem a nossa t-shirt
+    - Comprem a nossa t-shirt
   - **As nossas canções** – Página com o seguinte conteúdo:
     - Informação sobre as nossas canções
     - Vídeos
@@ -140,7 +155,7 @@ Tentaram organizar as ideias e chegaram à seguinte estrutura com cinco páginas
     - Como dar um concerto
     - Dicas top
 
-Para ter uma ideia mais precisa do que eles pensaram, dá de novo uma olhada no [sítio web final dos Nanonautas](https://nanonautas-final.glitch.me/). A ideia é ires desenvolvendo ao pouco o sítio web dos nanonautas até ele ter o mesmo aspecto e conteúdo que viste.
+Para ter uma ideia mais precisa do que eles pensaram, dá de novo uma olhada no [sítio web final dos Nanonautas](https://nanonautas-final.glitch.me/). A ideia é ires desenvolvendo aos poucos o sítio web dos nanonautas até ele ter exactamente o aspecto e conteúdos que viste!
 
 ## Vamos começar!
 
@@ -161,13 +176,17 @@ Tens à tua frente o teu novo projecto! Neste momento só tem uma página web, q
 ```
 Isto não é HTML!
 ```
-Procura o menu «Show» e escolhe «Next to The Code». Abrir-se-á uma janela que mostra o conteúdo do teu sítio web. Como ainda só tens uma página, verás lá listado o arquivo `sobre-nos.html`. Clica sobre ele para o veres na web.
+Procura o menu «Show▼» e escolhe «Next to The Code». Abrir-se-á uma janela que mostra o conteúdo do teu sítio web. Como ainda só tens uma página, verás lá listado o arquivo `sobre-nos.html`. Clica sobre ele para o veres na web.
 
 Que achas? Pouco entusiasmente, não é? Espera, as coisas vão melhorar, não tarda.
 
 ## Páginas HTML
 
-Reparaste no nome do ficheiro? Ele termina na extensão `.html`. Embora o teu navegador não ligue muito a essa extensão, ela ajuda-nos a perceber que se trata de uma página web no formato [HTML](https://www.wikiwand.com/pt/HTML) (*hypertext markup language* ou linguagem de marcação para hipertexto). O HTML é uma linguagem que permite representar e compor o conteúdo das páginas web, e é um dos principais temas em aprendizagem aqui. O HTML forma um trio com o [CSS](https://www.wikiwand.com/pt/Cascading_Style_Sheets) (*cascading style sheets* ou folhas de estilo em cascata), usadas para controlar o estilo ou aspecto das páginas web, e com o [JavaScript](https://www.wikiwand.com/pt/JavaScript), uma linguagem de programação que permite criar páginas web dinâmicas. Em conjunto, o HTML, o CSS e o JavaScript permitem criar páginas web fantásticas!
+Reparaste no nome do ficheiro? Ele termina na extensão `.html`. Embora o teu navegador não ligue muito a essa extensão, ela ajuda-nos a perceber que se trata de uma página web no formato [HTML](https://www.wikiwand.com/pt/HTML) (*hypertext markup language* ou linguagem de marcação para hipertexto). O HTML é uma linguagem que permite representar e compor o conteúdo das páginas web, e é um dos principais temas em aprendizagem aqui. O HTML forma um trio maravilha com o [CSS](https://www.wikiwand.com/pt/Cascading_Style_Sheets) (*cascading style sheets* ou folhas de estilo em cascata), usadas para controlar o estilo ou aspecto das páginas web, e com o [JavaScript](https://www.wikiwand.com/pt/JavaScript), uma linguagem de programação que permite criar páginas web dinâmicas. Em conjunto, o HTML, o CSS e o JavaScript permitem criar páginas web fantásticas!
+
+{{< note >}}
+O trio maravilha da web, pelo menos do lado do cliente, i.e., do lado do navegador, é constituído pelo <strong>HTML</strong>, para representares o conteúdo estruturado das tuas páginas, pelo <strong>CSS</strong>, para controlares num só local o aspecto de <em>todas</em> as tuas páginas, e pelo <strong>JavaScript</strong>, para tornares as tuas páginas <em>dinâmicas</em> e <em>interactivas</em>.
+{{< /note >}}
 
 Voltando ao Glitch, já viste que o conteúdo do arquivo `sobre-nos.html` é simplesmente uma linha de texto:
 ```
@@ -192,13 +211,9 @@ Tal como essa linha indica, o arquivo ainda não contém verdadeiro HTML. Vamos 
 
 Se tudo correr bem, se clicares sobre o arquivo `sobre-nos.html` na janela do lado direito, verás a tua primeira página Web! Nada mau, certo? OK, OK, ainda não é grande coisa… Melhor virá, mais à frente. :-)
 
-Reparaste certamente que o HTML tem montes de `<` e `>`. A ideia é que estes caracteres funcionam como *parênteses agudos* que envolvem aquilo a que se chama *etiquetas*.
+Reparaste certamente que o HTML tem montes de `<` e `>`. A ideia é que estes caracteres funcionam como *parênteses agudos* que envolvem aquilo a que se chama **etiquetas**.
 
-A primeira etiqueta é especial. Ela deve ser colocada na linha inicial de todas as páginas web e indica claramente ao navegador que as vai mostrar que o seu conteúdo… é HTML! Isso mesmo, a etiqueta especial
-```HTML
-<!DOCTYPE html>
-```
-indica que se trata de HTML. Só depois dessa primeira linha com a etiqueta especial que vimos é que começa o HTML propriamente dito.
+A primeira etiqueta é especial: `<!DOCTYPE html>`. Ela deve ser colocada na linha inicial de todas as páginas web e indica claramente ao navegador (que as vai mostrar) que o seu conteúdo… é HTML! Isso mesmo, a etiqueta especial indica que se trata de HTML. Só depois dessa primeira linha com a etiqueta especial que vimos é que começa o HTML propriamente dito.
 
 ### Principais elementos de uma página web
 
@@ -210,7 +225,7 @@ Em resumo:
 - **`</html>`** – Etiqueta de fecho do elemento `HTML`.
 - **Entre `<html>` e `</html>`** – Conteúdo do elemento `HTML`.
 
-Mas afinal, o que é o elemento `HTML`? O elemento `HTML` identifica todo o conteúdo da página web. Por isso é que todo o resto da nossa página web é parte do conteúdo deste elemento. O elemento `HTML` contém dois outros elementos (`HEAD` e `BODY`), cada um identificado pelas respectivas etiquetas:
+Mas afinal, o que é o elemento `HTML`? O elemento `HTML` identifica todo a informação sobre a página web. Por isso é que todo o resto da nossa página web é parte do conteúdo deste elemento. O elemento `HTML` contém dois outros elementos (`HEAD` e `BODY`), cada um identificado pelas respectivas etiquetas:
 
 - **Elemento `HEAD`** – Identificado pelas etiquetas `<head>` e `</head>`, este elemento funciona como um cabeçalho do documento, sendo o seu conteúdo informação que se aplica à página web como um todo.
 - **Elemento `BODY`** – Identificado pelas etiquetas `<body>` e `</body>`, este elemento funciona como corpo do documento, ou seja, o seu conteúdo é onde se coloca o conteúdo da página web, que é aquilo que se vê quando navegas para essa página.
@@ -220,22 +235,138 @@ Mas afinal, o que é o elemento `HTML`? O elemento `HTML` identifica todo o cont
 Tanto o cabeçalho como o corpo da nossa página web têm vários outros elementos de que ainda não falámos:
 
 - **Elementos do `HEAD`**:
-  - **Elemento `META`** – Este é um elemento sem conteúdo, ou seja, não tem etiqueta de fecho. Ou melhor, a sua etiqueta é ao mesmo tempo de abertura e fecho. Em bom rigor, a sua etiqueta, como a de todos os elementos sem conteúdo, ou vazios, deveria terminar em `/>`. Ou seja, deveria ser `<meta charset="UTF-8" />`. Bom, e para que é que isto serve? Dentro da etiqueta, além do seu nome, `meta`, encontras um par *`atributo`*=*`valor`*: o atributo é `charset` e o valor é `"UTF-8"`. Isto serve para dizer qual é o tipo de código usado para representar os caracteres, que neste caso é o [UTF-8](https://www.wikiwand.com/pt/UTF-8), e não é muito importante por agora.
-  - **Elemento `TITLE`** – Este elemento faz sempre alguma confusão. Ele indica qual é o título da página web. Ele é usualmente igual, ou pelo menos parecido, com o primeiro elemento `H1` da página. Só que enquanto o `H1` se vê na própria página, o `TITLE` só se vê no título da janela ou do tabulador onde a página está a ser mostrada. Para perceberes bem a diferença, faz o seguinte:
+  - **Elemento `META`** (etiqueta `<meta>`) – Este é um elemento sem conteúdo, ou seja, não tem etiqueta de fecho. Ou melhor, a sua etiqueta é ao mesmo tempo de abertura e fecho. Em bom rigor, a sua etiqueta, como a de todos os elementos sem conteúdo, ou vazios, deveria terminar em `/>`. Ou seja, deveria ser `<meta charset="UTF-8" />`. Bom, e para que é que isto serve? Dentro da etiqueta, além do seu nome, `meta`, encontras um par *`atributo`*=*`valor`*: o atributo é `charset` e o valor é `"UTF-8"`. Isto serve para dizer qual é o tipo de código usado para representar os caracteres, que neste caso é o [UTF-8](https://www.wikiwand.com/pt/UTF-8), e não é muito importante por agora.
+  - **Elemento `TITLE`** (etiquetas `<title>` e `</title>`) – Este elemento faz sempre alguma confusão. Ele indica qual é o título da página web. Ele é usualmente igual, ou pelo menos parecido, com o primeiro elemento `H1` da página. Só que enquanto o `H1` se vê na própria página, o `TITLE` só se vê no título da janela ou do tabulador onde a página está a ser mostrada. Para perceberes bem a diferença, faz o seguinte:
     - Altera o conteúdo do elemento `TITLE` para «Sobre Nós – Nanonautas», ou seja, `<title>Sobre Nós – Nanonautas</title>`.
-    - Procura o menu «Share», clica em «Live App» e clica sobre o botão «copy» logo abaixo.
+    - Procura o menu «Share▼», clica em «Live App» e clica sobre o botão «copy» logo abaixo.
     - Abre uma nova *janela* (e não separador!), pressionando em `<ctrl-N>`, no Windows, ou em `<cmd-N>`, no Mac.
     - Clica sobre o barra de endereço da nova janela e cola lá o endereço que copiaste. Pressiona `<enter>`.
     - Clica sobre o arquivo `sobre-nos.html`. Verás a tua nova página. Agora olha para o título da tua janela ou separador. Vês que o conteúdo do elemento `TITLE` foi lá parar? Agora já percebes para que serve.
 - **Elementos do `BODY`**:
-  - **Elemento `H1`** – !!!!!!
+  - **Elemento `H1`** – O «H» em «H1» vem de *header*, ou cabeçalho, e o 1 significa de nível 1. O HTML possui outros elementos deste tipo, mas de níveis superiores: `H2` a `H6`. Pensa num livro escolar. É muito provável que esse livro esteja organizado em secções. As secções mais importantes do livro são usualmente conhecidas por capítulos. Os títulos dos capítulos são representados em HTML através do elemento `H1`. Supõe agora que os capítulos desse livro são divididos em subsecções, todas com a mesma importância e cada uma delas com o seu título. Os títulos dessas subsecções são representados  em HTML através do elemento `H2`. E se essas secções tiverem sub-subsecções? Aí entra em jogo o elemento `H3`. Vê abaixo um exemplo (clica no botão «HTML» para veres o HTML da página). Na nossa página, como vês, só temos um «capítulo», por isso só temos um elemento `H1` para conter o seu título.
+  - **Elemento `P`** – O texto de uma secção da tua página web, seja ela de nível 1 (após um elemento `H1`), de nível 2 (após um elemento `H2`) ou de outro nível qualquer (até 6) deve ser organizado em parágrafos. Cada elemento `P` identifica um parágrafo.
 
+{{< codePen GRoRvXm >}}
+
+{{< note >}}
+Quando pensares no texto, organiza-o de modo a que cada parágrafo consista numa ideia, pensamento ou ponto principal. Organizar o texto em múltiplos parágrafos ajuda-te a organizar ideias, e ajuda o leitor a perceber melhor essas ideias.
+{{< /note >}}
+
+{{< note >}}
+Normalmente só há um elemento `H1` por página web. É como se cada página correspondesse a um capítulo.
+{{< /note >}}
+
+{{< warning >}}
+Não uses os elementos `H1` ou `H2` simplesmente porque queres que o texto dentro desse elemento apareça maior. Usa os elementos do HTML para dar estrutura e lógica às tuas páginas. Deixa as questões relacionadas com o aspecto para o CSS.
+{{< /warning >}}
 
 ### HTML é para conteúdo *estruturado* da página web
 
 É importante que percebas que o que escreves em HTML corresponde ao *conteúdo estruturado* das tuas páginas web. O HTML não especifica o *aspecto* das tuas páginas. Isso será o papel do CSS, que veremos em breve. Esta divisão é muitíssimo importante:
 
-- Permite-te concentrares-te no conteúdo do documento quando escreves HTML
+- Permite-te concentrares-te no conteúdo e estrutura da página enquanto escreves HTML.
 - Permite-te usar o CSS para controlares o aspecto das tuas páginas de forma coerente: um só ficheiro CSS permite-te controlar o aspecto de *todas* as páginas do teu sítio web!
 
+## Folhas de estilo
 
+O segundo elemento do nosso trio maravilha é o CSS. Vamos usar o CSS para criar uma folha de estilo. Faz o seguinte:
+- No Glitch, no painel à esqueda, clica no menu «New File▼».
+- Insere `css/minha-folha-de-estilo.css` no espaço.
+- Clica no botão «Add This File»
+
+Verás que foi criado um novo arquivo, chamado `minha-folha-de-estilo.css`, numa pasta chamada `css`.
+
+{{< note >}}
+No Glitch as pastas são criadas automaticamente, se ainda não existirem, sempre que o nome dos ficheiros a criar contém o caractere `/`, que funciona como separador entre os nomes da(s) pasta(s) e o nome do arquivo. 
+{{< /note >}}
+
+Neste momento, a estrutura dos teus ficheiros é a seguinte:
+{{< fileTree >}}
+* css
+  * minha-folha-de-estilo.css
+* sobre-nos.html
+{{< /fileTree >}}
+
+No painel da direita deverá também ter ficado visível a nova pasta. Confirma-o.
+
+O novo arquivo que criámos termina com a extensão `.css`, para mais facilmente o identificarmos como uma folha de estilo representada em CSS.
+
+{{< note >}}
+Uma folha de estilo serve para tu, num único local, indicares quais a regras visuais a aplicar aos elementos das páginas web representadas em HTML que usem essa folha de estilos. Ou seja, uma folha de estilo controla o *aspecto* das páginas do teu sítio web.
+{{< /note >}}
+
+Neste momento a folha de estilo `minha-folha-de-estilo.css` está vazia. Coloca nela o seguinte código.
+
+```CSS
+body {
+  font-family: sans-serif;
+}
+```
+
+Se fores agora ver, no painel da direita, o aspecto da tua página web `sobre-nos.html`, verás que… nada mudou! Isso acontece porque tens de dizer que ao navegador que folha de estilo queres que seja aplicada à tua página web. Como ainda não o fizeste, nada mudou.
+
+Para resolveres o problema, clica no arquivo `sobre-nos.html` no painel da esquerda e adiciona o elemento `LINK`abaixo, de modo a ficares com o seguinte conteúdo:
+```HTML
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sobre Nós</title>
+    <link type="text/css" rel="stylesheet" href="css/minha-folha-de-estilo.css"/>
+  </head>
+  <body>
+    <h1>Sobre Nós</h1>
+    <p>Somos os Nanonautas.</p>
+    <p>Chamamo-nos Holly, Dervla, Daniel e Sam.</p>
+  </body>
+</html>
+```
+O elemento `LINK` é um elemento vazio. Por isso não tem etiqueta de abertura e fecho. Pelo contrário, tem apenas uma etiqueta que termina em `/>`. Este elemento chama-se `LINK` porque faz uma ligação entre a página web e um recurso usado por essa página. Neste caso faz a ligação entre a tua página web `sobre-nos.html` e a tua folha de estilos `css/minha-folha-de-estilo.css`. O elemento tem três atributos:
+- **`type`** – Indica o tipo do recurso. O valor `"text/css"` indica que o recurso é do tipo CSS.
+- **`rel`** – Indica a relação (daí `rel`) entre a página web e o recurso. O valor `"stylesheet"` indica que a relação é entre a página web e uma folha de estilo.
+- **`href`** – Indica a localização do recurso, na forma de um URL. O nome do attributo vem de *hypertext reference*, ou seja, referência de hipertexto. O valor `"css/minha-folha-de-estilo.css"` indica a localização da nossa folha de estilo de forma abreviada (ou seja, relativa à posição da nossa página web).
+
+Experimenta agora ver a página web `sobre-nos.html` no painel da direita. Notas alguma diferença? Não? Vê com atenção. O tipo de letra (ou fonte) usado não é o mesmo. Agora temos uma fonte sem serifas. «Sem quê?», dizes. [Serifas](https://www.wikiwand.com/pt/Serifa). Clica na ligação para investigares. Vê também a explicação [aqui](https://www.w3schools.com/css/css_font.asp). Basicamente as serifas são os tracinhos que se encontram na extremidade das hastes das letras, em alguns tipos de letra. Vê a diferença:
+
+<p style="font-family: 'Times New Roman', Times, serif; font-size: 100px" >Com serifa.</p>
+
+<p style="font-family: Arial, Helvetica, serif; font-size: 100px" >Sem serifa.</p>
+
+Agora já notas a diferença na forma como a nossa página é mostrada, certo?
+
+Mas, porque é que o tipo de letra mudou? Temos de ir de novo à nossa folha de estilo para o perceber. O código abaixo consiste numa única **regra**. Esta regra tem duas partes:
+
+{{< code numbered="true" >}}
+[[[body]]] [[[{
+  font-family: sans-serif;
+}]]]
+{{< /code >}}
+
+1. **`body`** é o chamado **selector**. Ele indica que esta regra se aplica a todo o elemento `BODY` das nossas páginas. Ou seja, que se aplica ao corpo da página, ou ainda, à sua parte visível.
+2. De **`{`** a **`}`** temos o **bloco de declarações**. É dentro deste bloco que se colocam as várias declarações, que no nosso caso é só uma. Cada uma destas declarações especifica o valor de uma dada propriedade estilística, ou seja, uma propriedade do aspecto visual da nossa página: 
+
+{{< code numbered="true" >}}
+body {
+  [[[font-family]]]: [[[sans-serif]]];
+}
+{{< /code >}}
+
+1. A propriedade **`font-family`** controla o tipo de letra a usar. Como a nossa regra se aplica a todo o corpo, este tipo de letra vai aplicar-se a todo o texto da nossa página web.
+2. O valor **`sans-serif`** escolhido para a propriedade `font-family` indica que desejamos um tipo de letra sem serifas. A utilização de `sans-serif` diz ao navegadores para usar um tipo de letra à sua escolha, desde que não tenha serifas. Tem a vantagem de não nos obrigar a indicar um tipo de letra específico.
+
+Faz as seguintes experiências:
+- Usa `serif` na regra acima. Qual o resultado?
+- Usa `Courier` na regra acima. Qual o resultado?
+
+## Imagens
+
+Adicionar ao Glitch.
+
+Adicionar ao HTML
+
+O elemento `IMG` e os seus atributos.
+
+O endereço da imagem.
+
+Vendo o resultado.
