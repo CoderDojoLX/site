@@ -235,9 +235,10 @@ No Glitch as pastas são criadas automaticamente, se ainda não existirem, sempr
 
 Neste momento, a estrutura dos teus ficheiros e pastas é a seguinte:
 {{< fileTree >}}
-* css
-  * minha-folha-de-estilo.css
-* sobre-nos.html
+<code>/</code> [pasta raiz]
+  * css
+    * minha-folha-de-estilo.css
+  * sobre-nos.html
 {{< /fileTree >}}
 
 No painel da direita deverá também ter ficado visível a nova pasta. Confirma-o.
@@ -390,7 +391,7 @@ Para completarmos esta lição, vamos adicionar mais uma página. Adiciona mais 
 Dá uma nova olhada na nova página, no painel direito. Parece-te bem? Perfeito! Agora falta adicionarmos as página em falta, incluindo uma página muito importante, que é a página de início. Sem ela, ao chegares ao teu sítio web só verias uma feia lista de páginas, não é? Vamos resolver este problema na próxima lição.
 
 {{< note >}}
-Confirma que o teu sítio web, e todas as suas páginas, se assemelham a <a href="https://nanonautas-p16.glitch.me" target=_blank>este projecto</a>. Se algo falhar, compara o teu projecto com o que podes encontrar <a href="https://glitch.com/~nanonautas-p16" target=_blank>aqui</a> e depois clica em «View Source».
+Confirma que o teu sítio web, e todas as suas páginas, se assemelham a <a href="https://nanonautas-p16.glitch.me" target="_blank">este projecto</a>. Se algo falhar, compara o teu projecto com o que podes encontrar <a href="https://glitch.com/~nanonautas-p16" target="_blank">aqui</a> (clica em «View Source»).
 {{< /note >}}
 
 {{< note >}}
