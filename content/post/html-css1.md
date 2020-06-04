@@ -395,5 +395,5 @@ Confirma que o teu sítio web, e todas as suas páginas, se assemelham a <a href
 {{< /note >}}
 
 {{< note >}}
-Ligação seguinte: <a href="{{<relref "post/html-css2.md">}}">Página de início e muito mais CSS</a>.
+Lição seguinte: <a href="{{<relref "post/html-css2.md">}}">Página de início e muito mais CSS</a>.
 {{< /note >}}
