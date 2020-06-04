@@ -9,7 +9,7 @@ Temos uma só regra…_**Sê Fixe!**_
 
 ## Os nosso princípios
 
-[Acede a este link para saberes mais sobre o CoderDojo global]({{< relref "post/about-cd.md" >}})
+[Sabe mais sobre o CoderDojo global]({{< relref "post/about-cd.md" >}})
 
 ## Quem somos?
 

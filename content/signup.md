@@ -27,7 +27,7 @@ A plataforma Zen foi desenvolvida de modo a permitir inscrições mais fáceis e
 
 Depois de dados estes passos pela primeira vez, a inscrição em novas sessões é mais fácil: basta entrares no Zen com o teu endereço de correio electrónico e a tua palavra-passe, e inscreveres-te nos eventos disponíveis na nossa página.
 
-Agora, segue as [instruções para a tua primeira sessão]({{< relref "first.md" >}}) ou [começa já]({{< relref "start.md" >}}!
+Agora, segue as [instruções para a tua primeira sessão]({{< relref "first.md" >}}) ou [começa já]({{< relref "start.md" >}})!
 
 ## Quero ser mentor/voluntário
 

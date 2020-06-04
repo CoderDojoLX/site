@@ -11,10 +11,10 @@ Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS](/html
 - **[Sessão #261 (HTML/CSS #2)]({{<ref "/post/sessions/session-261">}})** – Sessão do CoderDojo LX correspondente a esta secção.
 - **[Apresentação da sessão #261 (HTML/CSS #2)](https://bit.ly/cdlx-html2)** – A apresentação usada nessa sessão.
 - **[nanonautas-sessao2](https://glitch.com/~nanonautas-sessao2)** – Projecto com que podes começar esta lição. Também podes começar onde terminaste a ligação anterior.
-– Os exemplos do livro correspondentes a esta sessão:
-- **[nanonautas-p18](https://glitch.com/~nanonautas-p18)** – Projecto até à página 18 do livro.
-- **[nanonautas-p22](https://glitch.com/~nanonautas-p22)** – Projecto até à página 22 do livro.
-- **[nanonautas-p28](https://glitch.com/~nanonautas-p28)** – Projecto até à página 28 do livro.
+- Os exemplos do livro correspondentes a esta sessão:
+  - **[nanonautas-p18](https://glitch.com/~nanonautas-p18)** – Projecto até à página 18 do livro.
+  - **[nanonautas-p22](https://glitch.com/~nanonautas-p22)** – Projecto até à página 22 do livro.
+  - **[nanonautas-p28](https://glitch.com/~nanonautas-p28)** – Projecto até à página 28 do livro.
 
 ## Mais uma página
 

@@ -6,11 +6,11 @@ toc: false
 
 Uma só regra…_**Sê Fixe!**_
 
-## O Compromisso CoderDojo
+## Compromisso CoderDojo
 
 > Aprendizagem Aberta, Livre e Gratuita!
 
-## Os Princípios do CoderDojo
+## Princípios do CoderDojo
 
 {{< ticks >}}
 
@@ -24,3 +24,6 @@ Uma só regra…_**Sê Fixe!**_
 - Campeões, mentores, encarregados de educação e jovens são responsáveis uns pelos outros.
 
 {{< /ticks >}}
+
+## CoderDojo global
+
