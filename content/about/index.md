@@ -32,7 +32,7 @@ Em 2018, uma equipa dos nossos ninjas recebeu o prémio especial do concurso nac
 ## Equipa
 
 <style>
-img {
+img.wrap {
   display: block;
 }
 img.wrap { 
@@ -88,12 +88,13 @@ Os mentores participam nas sessões apoiando os ninjas. Embora usualmente sejam 
 
 #### Matias Silva
 
-<img src="/about/matias.jpeg" alt="Matias" class="wrap a lign-left"/>
+<img src="/about/matias.jpeg" alt="Matias" class="wrap align-left"/> O Matias Silva é estudante do primeiro ano na Universidade de Cambridge, onde pretende obter o grau de mestre em engenharia. Foi ninja do CoderDojo LX a partir de 2014. Recentemente regressou para, com a sua energia e capacidade técnica, dar nova via ao CoderDojo LX. Rapidamente se tornou campeão. Muitas das novas ideias e ferramentas do CoderDojo LX partiram dele. Tem uma forte paixão não apenas pela programação, mas também pelo seu ensino, liderando actualmente muitas das sessões do CoderDojo LX.
 
 <p style="text-align: right">
   <a href="https://scratch.mit.edu/users/matita_s/ target="_blank"">Scratch</a>
   <a href="https://github.com/matiasilva" target="_blank">GitHub</a>
   <a href="https://www.linkedin.com/in/matias-silva-927502190/" target="_blank">LinkedIn</a>
+  <a href="https://matiasilva.github.io/projects/">Página pessoal</a>
 </p>
 
 #### Manuel Menezes de Sequeira
