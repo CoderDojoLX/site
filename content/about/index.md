@@ -100,8 +100,6 @@ Os mentores participam nas sessões apoiando os ninjas. Embora usualmente sejam 
 
 <img src="/about/manuel.jpg" alt="Manuel" class="wrap align-left"/> O Manuel Menezes de Sequeira é sócio-gerente da Caldeira do Mosteiro, Lda., e vive na ilha das Flores, onde trabalha no projecto [Calmos](https://calmos.pt/). Foi professor auxiliar na Universidade Europeia, no Instituto Piaget, na Universidade Católica Portuguesa e no ISCTE – Instituto Universitário de Lisboa, tendo leccionado programação, algoritmos e estruturas de dados, engenharia do *software*, etc. É doutorado em engenharia electrotécnica e de computadores pelo Técnico – Universidade de Lisboa. Toda a sua carreira anterior ao projecto na ilha das Flores foi feita na academia, tendo investigado no INESC-ID, no Instituto de Telecomunicações e no ISCTE-IUL. É entusiasta do Scratch e do Snap!, para cujos projectos contribui com traduções para português. Em 2013 fundou o CoderDojo LX, em conjunto com o Miguel Bugalho, então colega na Universidade Europeia. 
 
-(Scratch: MMSequeira, Facebook, Twitter, LinkedIn)
-
 <p style="text-align: right">
   <a href="https://scratch.mit.edu/users/MMSequeira/" target="_blank"">Scratch</a>
   <a href="https://glitch.com/@mmsequeira" target="_blank">Glitch</a>
