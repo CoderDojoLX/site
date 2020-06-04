@@ -12,7 +12,7 @@ Vamos programar para a web com o HTML/CSS! Constrói o teu próprio sítio web a
 
 ![Capa do livro Criar com Código: Constrói o teu Sítio Web](http://nanonautas.pt/wp-content/uploads/2016/09/cover.jpg)
 
-Neste percurso de aprendizagem vamos seguir o livro [Criar com Código: Constrói o teu Sítio Web](http://www.planeta.pt/livro/criar-com-constroi-o-teu-sitio-web), de Clyde Hatter, editado pela Planeta. O livro pertence à colecção CoderDojo Nano que é promovida pela Fundação CoderDojo. Não deixes de ver [a página web de apoio ao livro](http://nanonautas.pt/).
+Neste percurso de aprendizagem vamos seguir o excelente livro [Criar com Código: Constrói o teu Sítio Web](http://www.planeta.pt/livro/criar-com-constroi-o-teu-sitio-web), de Clyde Hatter, editado pela Planeta. O livro pertence à colecção CoderDojo Nano que é promovida pela Fundação CoderDojo. Não deixes de ver [a página web de apoio ao livro](http://nanonautas.pt/).
 
 ### Sessões
 
@@ -33,13 +33,13 @@ Os projectos de arranque são:
 - **[nanonautas-sessao2](https://glitch.com/~nanonautas-sessao2)** – Projecto com que podes começar a sessão #261 (HTML/CSS #2).
 
 Os exemplos do livro são:
-- **[nanonautas-p8](https://glitch.com/~nanonautas-p8)** – Sítio até à página 8 do livro.
-- **[nanonautas-p10](https://glitch.com/~nanonautas-p10)** – Sítio até à página 10 do livro.
-- **[nanonautas-p13](https://glitch.com/~nanonautas-p13)** – Sítio até à página 13 do livro.
-- **[nanonautas-p16](https://glitch.com/~nanonautas-p16)** – Sítio até à página 16 do livro.
-- **[nanonautas-p18](https://glitch.com/~nanonautas-p18)** – Sítio até à página 18 do livro.
-- **[nanonautas-p22](https://glitch.com/~nanonautas-p22)** – Sítio até à página 22 do livro.
-- **[nanonautas-p28](https://glitch.com/~nanonautas-p28)** – Sítio até à página 28 do livro.
+- **[nanonautas-p8](https://glitch.com/~nanonautas-p8)** – Projecto até à página 8 do livro.
+- **[nanonautas-p10](https://glitch.com/~nanonautas-p10)** – Projecto até à página 10 do livro.
+- **[nanonautas-p13](https://glitch.com/~nanonautas-p13)** – Projecto até à página 13 do livro.
+- **[nanonautas-p16](https://glitch.com/~nanonautas-p16)** – Projecto até à página 16 do livro.
+- **[nanonautas-p18](https://glitch.com/~nanonautas-p18)** – Projecto até à página 18 do livro.
+- **[nanonautas-p22](https://glitch.com/~nanonautas-p22)** – Projecto até à página 22 do livro.
+- **[nanonautas-p28](https://glitch.com/~nanonautas-p28)** – Projecto até à página 28 do livro.
 
 Tens também o projecto que resultou da sessão #261 (HTML/CSS #2):
 - **[nanonautas-sessao2-final](https://glitch.com/~nanonautas-sessao2-final)** – Projecto feito ao longo da sessão #261 (HTML/CSS #2).
@@ -55,4 +55,5 @@ Fomos preparando várias apresentações para cada uma das sessões que realizá
 ## Percurso de aprendizagem
 
 Segue as ligações abaixo para ires percorrendo as lições deste percurso de aprendizagem:
-- [Introdução à Web, ao HTML e ao CSS]({{<relref "post/html-css1.md">}})
+1. [Introdução à Web, ao HTML e ao CSS]({{<relref "post/html-css1.md">}})
+2. [Página de início e muito mais CSS]({{<relref "post/html-css2.md">}})

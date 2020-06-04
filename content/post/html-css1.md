@@ -10,7 +10,7 @@ Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS](/html
 
 - **[Sessão #259 (HTML/CSS #1)]({{<ref "/post/sessions/session-259">}})** – Sessão do CoderDojo LX correspondente a esta secção.
 - **[Apresentação da sessão #259 (HTML/CSS #1)](https://bit.ly/cdlx-html1)** – A apresentação usada nessa sessão.
-- **[nanonautas-começa-aqui](https://glitch.com/~nanonautas-comeca-aqui)** – Projecto com que deves começar esta secção.
+- **[nanonautas-começa-aqui](https://glitch.com/~nanonautas-comeca-aqui)** – Projecto com que deves começar esta lição.
 – Os exemplos do livro correspondentes a esta sessão:
 - **[nanonautas-p8](https://glitch.com/~nanonautas-p8)** – Projecto até à página 8 do livro.
 - **[nanonautas-p10](https://glitch.com/~nanonautas-p10)** – Projecto até à página 10 do livro.
@@ -26,7 +26,7 @@ Vamos começar por definir alguns conceitos, com ajuda da nossa amiga [Wikipédi
 - **[Sítio web](https://www.wikiwand.com/pt/S%C3%ADtio_eletr%C3%B3nico)** – Conjunto de **páginas web** relacionadas disponíveis num mesmo *nome de domínio*, por exemplo o [sítio web dos Nanonautas](https://nanonautas-final.glitch.me/) (que é onde chegaremos no final deste percurso de aprendizagem).
 - **[Página web](https://www.wikiwand.com/pt/P%C3%A1gina_web)** – Um documento ou recurso em **hipertexto** disponível na Web a que se pode aceder usando um navegador e que tem um dado endereço, ou melhor, um dado **URL**.
 - **[Hipertexto](https://www.wikiwand.com/pt/Hipertexto)** – Documento com ligações (mais precisamente, hiperligações) a outros documentos ou recursos.
-- **[URL](https://www.wikiwand.com/pt/URL)** ou **endereço** – Localizador de um recurso na web, usualmente uma página web. Aos URL também se chama muitas vezes endereços web ou simplemente endereços. Por exemplo, o endereço do sítio web dos Nanonautas é dado por este URL: `https://nanonautas-final.glitch.me/`.
+- **[URL](https://www.wikiwand.com/pt/URL)** ou **endereço** – Localizador de um recurso na web, usualmente uma página web. Aos URL também se chama muitas vezes endereços web ou simplesmente endereços. Por exemplo, o endereço do sítio web dos Nanonautas é dado por este URL: `https://nanonautas-final.glitch.me/`.
 - **[Navegador](https://www.wikiwand.com/pt/Navegador_web)** – Uma aplicação para aceder à informação que está na Web. Quando o utilizador pede ao navegador para mostrar uma dada página de um sítio web, indicando o seu endereço, o navegador vai buscar essa página web ao *servidor* web apropriado e mostra essa página numa janela do computador.
 
 Há nestas definições três palavras ou expressões meio esquisitas: «protocolo» e «nome de domínio». Vamos ver o que significam:
@@ -176,7 +176,7 @@ Em resumo:
 
 - **`<html>`** – Etiqueta de abertura do elemento `HTML`.
 - **`</html>`** – Etiqueta de fecho do elemento `HTML`.
-- **Entre `<html>` e `</html>`** – Conteúdo do elemento `HTML`.
+- **Entre `<html>` e `</html>`** – Conteúdo do elemento `HTML`.
 
 Mas afinal, o que é o elemento `HTML`? O elemento `HTML` identifica toda a informação sobre a página web. Por isso é que todo o resto da nossa página web é parte do conteúdo deste elemento. O elemento `HTML` contém dois outros elementos (`HEAD` e `BODY`), cada um identificado pelas respectivas etiquetas:
 
@@ -223,7 +223,7 @@ Não uses os elementos `H1` ou `H2` simplesmente porque queres que o texto dentr
 ## Folhas de estilo
 
 O segundo elemento do nosso trio maravilha é o CSS. Vamos usar o CSS para criar uma folha de estilo. Faz o seguinte:
-- No Glitch, no painel à esqueda, clica no menu «New File▼».
+- No Glitch, no painel à esquerda, clica no menu «New File▼».
 - Insere `css/minha-folha-de-estilo.css` no espaço.
 - Clica no botão «Add This File»
 
@@ -233,7 +233,7 @@ Verás que foi criado um novo arquivo, chamado `minha-folha-de-estilo.css`, numa
 No Glitch as pastas são criadas automaticamente, se ainda não existirem, sempre que o nome dos ficheiros a criar contém o caractere <code>/</code>, que funciona como separador entre os nomes da(s) pasta(s) e o nome do arquivo. 
 {{< /note >}}
 
-Neste momento, a estrutura dos teus ficheiros é a seguinte:
+Neste momento, a estrutura dos teus ficheiros e pastas é a seguinte:
 {{< fileTree >}}
 * css
   * minha-folha-de-estilo.css
@@ -391,4 +391,8 @@ Dá uma nova olhada na nova página, no painel direito. Parece-te bem? Perfeito!
 
 {{< note >}}
 Confirma que o teu sítio web, e todas as suas páginas, se assemelham a <a href="https://nanonautas-p16.glitch.me" target=_blank>este projecto</a>. Se algo falhar, compara o teu projecto com o que podes encontrar <a href="https://glitch.com/~nanonautas-p16" target=_blank>aqui</a> e depois clica em «View Source».
+{{< /note >}}
+
+{{< note >}}
+Ligação seguinte: <a href="{{<relref "post/html-css2.md">}}">Página de início e muito mais CSS</a>.
 {{< /note >}}
