@@ -37,7 +37,7 @@ img.wrap {
 }
 img.wrap { 
   max-width: 30%;
-  margin: 20px 0px;
+  margin: 5px 20px 0px 0px;
 }
 img.align-right {
   float: right;
