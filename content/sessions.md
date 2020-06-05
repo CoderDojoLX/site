@@ -7,9 +7,17 @@ title: "Sessões"
 ### Maio
 
 <style>
-  table {
-/*    width: 750px;*/
-    font-size: 12pt;
+  @media (max-width: 1000px) {
+    table {
+  /*    width: 750px;*/
+      font-size: 10pt;
+    }
+  }
+  @media (max-width: 500px) {
+    table {
+  /*    width: 750px;*/
+      font-size: 8pt;
+    }
   }
   table td, table th {
 /*    white-space: nowrap;*/
