@@ -7,22 +7,30 @@ title: "Sessões"
 ### Maio
 
 <style>
-table th:first-of-type {
+  table {
+/*    width: 750px;*/
+    font-size: 12pt;
+  }
+  table td, table th {
+/*    white-space: nowrap;*/
+    padding: 1px;
+  }
+  table th:first-of-type {
     width: 18%;
-}
-table th:nth-of-type(2) {
+  }
+  table th:nth-of-type(2) {
     width: 10%;
-}
-table th:nth-of-type(3) {
+  }
+  table th:nth-of-type(3) {
     width: 13%;
-}
-table th:nth-of-type(4) {
+  }
+  table th:nth-of-type(4) {
     width: 60%;
-}
+  }
 </style>
 
 | Data       | Hora  | Sessão | Tema                                                                                 |
-|------------|-------|--------|--------------------------------------------------------------------------------------|
+|:----------:|:-----:|:------:|:-------------------------------------------------------------------------------------|
 | 2020-05-09 | 14:30 |  #254  | p5.js@Glitch: Programação Criativa #2                                                |
 | 2020-05-09 | 16:30 |  #255  | Minecraft: Hora do Código e DojoCraft                                                |
 | 2020-05-09 | 14:30 |  #254  | p5.js@Glitch: Programação Criativa #2                                                |
@@ -39,7 +47,7 @@ table th:nth-of-type(4) {
 
 ### Junho
 | Data       | Hora  | Sessão | Tema                                                                        |
-|------------|-------|--------|-----------------------------------------------------------------------------|
+|:----------:|:-----:|:------:|:----------------------------------------------------------------------------|
 | 2020-06-03 | 18:00 <td colspan=2>Code Kata #4</td>
 | 2020-06-06 | 14:30 |  #262  | p5.js@Glitch: Programação Criativa #6                                       |
 | 2020-06-06 | 16:30 |  #263  | [HTML/CSS: Programação web #3]({{<relref "post/sessions/session-263.md">}}) |
