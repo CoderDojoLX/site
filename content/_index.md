@@ -3,21 +3,27 @@ date: "2017-06-26T18:27:58+01:00"
 title: "CoderDojo LX"
 ---
 
-{{< blockquote author="Campeões e amigos do CoderDojo LX" >}}
-Atualização COVID-19: O CoderDojo LX continua de portas (virtuais) abertas a todos os ninjas de Portugal! Inscreve-te já para participares nas nossas sessões remotas.
+{{< blockquote author="Campeões e mentores do CoderDojo LX" >}}
+Actualização COVID-19: O CoderDojo LX continua de portas (virtuais) abertas a todos os ninjas de Portugal! Inscreve-te já para participares nas nossas sessões remotas.
 {{< /blockquote >}}
 
-Tens entre 7 e 17 anos? Queres aprender a *programar*? A fazer um sítio web como este? A fazer um jogo? A programar um robô? [**Vem às sessões do CoderDojo LX!**]({{< relref "signup.md" >}})
+## Ninjas
 
-Já sabes programar e gostavas de melhorar? O CoderDojo LX também é para ti! Queres ajudar outros a aprender? Temos sempre falta de mentores talentosos! [**Inscreve-te já!**]({{< relref "signup.md" >}})
+Tens entre 7 e 17 anos? Queres aprender a *programar*? A fazer um sítio web como este? A fazer um jogo? A programar um robô?
+Já sabes programar e gostavas de melhorar? O CoderDojo LX é para ti! [**Vem às sessões do CoderDojo LX!**]({{< relref "signup.md" >}})
+
+## Mentores
+
+Tens entre 18 e 118 anos? A programação é a tua paixão e queres ajudar os mais novos a aprender? Temos sempre falta de mentores talentosos! [**Inscreve-te já!**]({{< relref "signup.md#quero-ser-mentorvolunt%C3%A1rio" >}})
 
 ## Sessões
+
 O CoderDojo LX tem usualmente três sessões por semana:
 * quartas-feiras, 18:00-18:45 – Code Kata (sessão de conversa, apoio à programação e muito mais)
-* sábados, 14:30-16:00 – Primeira sessão temática (p5.js, Python, etc.)
+* sábados, 14:30-16:00 – Primeira sessão temática (p5.js, JavaScript, Python, etc.)
 * sábados, 16:30-18:00 – Segunda sessão temática (Scratch, HTML/CSS, etc.)
 
-Podes encontrar uma lista das nossas últimas sessões [aqui]({{<relref "sessions/">}}).
+Podes encontrar uma lista das nossas sessões mais recentes [aqui]({{<relref "sessions/">}}).
 <!---
 Traz um computador portátil (e uma extensão, não vá o diabo tecê-las). Se tiveres um robot Lego, podes trazê-lo também. Ah! e traz um dos teus encarregados de educação, para ele poder também aprender umas coisas :-). (Se tiveres pelo menos 16 anos, podes deixá-lo ficar em casa, desde que tenhas autorização para vir, claro.)
 

@@ -11,12 +11,14 @@ Para melhor te preparares para a tua primeira sessão no CoderDojo LX, segue as 
 
 ## Sessões de Scratch
 
-Nas sessões de Scratch aprenderás os princípios da programação usando a linguagem de programação visual chamada Scratch. [Segue as instruções aqui.]({{< relref "post/primeira-scratch.md" >}})
+Nas sessões de Scratch aprenderás os princípios da programação usando a linguagem de programação visual [Scratch](https://scratch.mit.edu/). [Segue as instruções aqui.]({{< relref "post/first-scratch.md" >}})
 
 ## Sessões de p5.js
 
-Nas sessões de [p5.js](https://p5js.org/) aprenderás como criar jogos, animações e mais usando a linguagem de programação JavaScript e a biblioteca p5.js. [Segue as instruções aqui.]({{< relref "post/primeira-p5.md" >}})
+Nas sessões de [p5.js](https://p5js.org/) aprenderás como criar jogos, animações e mais usando a linguagem de programação [JavaScript](https://www.wikiwand.com/pt/JavaScript) e a biblioteca p5.js. [Segue as instruções aqui.]({{< relref "post/first-p5.md" >}})
 
+<!-- The first-minecraft.md page is still empty.
 ## Sessões de Minecraft
 
-Nas sessões de Minecraft aprenderás os princípios da programação usando o jogo Minecraft. [Segue as instruções aqui.]({{< relref "post/primeira-minecraft.md" >}})
+Nas sessões de Minecraft aprenderás os princípios da programação usando o jogo Minecraft. [Segue as instruções aqui.]({{< relref "post/first-minecraft.md" >}})
+-->
