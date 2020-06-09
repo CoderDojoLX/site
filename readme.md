@@ -4,6 +4,10 @@
 
 CoderDojo LX's web site is hosted with Github Pages, a free service that allows users to serve static files right from a repository at a [special URL](https://coderdojolx.github.io) It uses the Hugo static webpage generator with the (updated) Cupper theme.
 
+> Important change! Now you can create a blog post or a session post too! For all other posts, create as usual.
+
+Note: `hugo new blog/<name>.md` or `hugo new session/<name>.md` or `hugo new post/<name>.md` work but for different purposes!
+
 ## Getting started
 
 1. [Install Hugo on your machine](https://gohugo.io/getting-started/quick-start/)
