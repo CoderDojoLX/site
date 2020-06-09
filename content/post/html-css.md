@@ -17,8 +17,8 @@ Neste percurso de aprendizagem vamos seguir o excelente livro [Criar com Código
 ### Sessões
 
 Este percurso de aprendizagem foi seguido ao longo de algumas das nossas sessões remotas. Aqui vão elas:
-- [Sessão #259 (HTML/CSS #1)]({{<ref "/post/sessions/session-259">}})
-- [Sessão #261 (HTML/CSS #2)]({{<ref "/post/sessions/session-261">}})
+- [Sessão #259 (HTML/CSS #1)]({{<ref "/sessions/session-259">}})
+- [Sessão #261 (HTML/CSS #2)]({{<ref "/sessions/session-261">}})
 
 Alguns dos materiais sugeridos abaixo correspondem a estas sessões. Mas não precisas de ter participado nas sessões para seguir este percurso de aprendizagem!
 

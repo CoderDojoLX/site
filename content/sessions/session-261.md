@@ -5,8 +5,8 @@ title: "Sessão #261 – HTML/CSS: Programação web #2"
 
 {{< ticks >}}
 - **Inscrição**: [Eventbrite](https://www.eventbrite.pt/e/bilhetes-coderdojo-lx-261-htmlcss-programacao-web-2-107207001026)
-- **Sessão anterior**: [HTML/CSS: Programação web #1]({{<relref "post/sessions/session-259.md">}})
-- **Sessão seguinte**: [HTML/CSS: Programação web #3]({{<relref "post/sessions/session-263.md">}})
+- **Sessão anterior**: [HTML/CSS: Programação web #1]({{<relref "/sessions/session-259.md">}})
+- **Sessão seguinte**: [HTML/CSS: Programação web #3]({{<relref "/sessions/session-263.md">}})
 {{< /ticks >}}
 
 ## Página de início e muito mais CSS

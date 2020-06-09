@@ -5,7 +5,7 @@ title: "CoderDojo LX #259 – HTML/CSS: Programação web #1"
 
 {{< ticks >}}
 - **Inscrição**: [Eventbrite](https://www.eventbrite.pt/e/bilhetes-coderdojo-lx-259-htmlcss-programacao-web-1-106106962782)
-- **Sessão seguinte**: [HTML/CSS: Programação web #2]({{<relref "post/sessions/session-261.md">}})
+- **Sessão seguinte**: [HTML/CSS: Programação web #2]({{<relref "/sessions/session-261.md">}})
 {{< /ticks >}}
 
 ## Introdução à Web, ao HTML e ao CSS
