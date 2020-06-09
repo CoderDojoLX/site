@@ -11,7 +11,7 @@ title: "Sessão #261 – HTML/CSS: Programação web #2"
 
 ## Página de início e muito mais CSS
 
-Sessão dedicada à Programação web. Corresponde à lição [Página de início e muito mais CSS]({{<relref "post/html-css2.md">}}) do percurso de aprendizagem [Programação web com HTML/CSS](/html-css).
+Sessão dedicada à Programação web. Corresponde à lição [Página de início e muito mais CSS]({{<relref "/post/html-css2">}}) do percurso de aprendizagem [Programação web com HTML/CSS](/post/html-css).
 
 ## Objectivos
 

@@ -57,7 +57,7 @@ Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS](/html
 
 ## Mais uma página
 
-Abre o projecto que completaste na lição anterior, [Introdução à Web, ao HTML e ao CSS]({{<relref "post/html-css1.md">}}). Se preferires, podes abrir o nosso projecto de arranque para esta lição, [nanonautas-sessao2](https://glitch.com/~nanonautas-sessao2), e remisturá-lo.
+Abre o projecto que completaste na lição anterior, [Introdução à Web, ao HTML e ao CSS]({{<relref "post/html-css1">}}). Se preferires, podes abrir o nosso projecto de arranque para esta lição, [nanonautas-sessao2](https://glitch.com/~nanonautas-sessao2), e remisturá-lo.
 
 {{< note >}}
 Talvez esteja na altura de dar um nome apropriado ao teu projecto, se não o fizeste ainda. No Glitch, no editor do projecto, clica sobre o nome do teu projecto no canto superior esquerdo. Dá-lhe um nome apropriado.
@@ -549,6 +549,6 @@ Confirma que o teu sítio web, e todas as suas páginas, se assemelham a <a href
 
 <!--
 {{< note >}}
-Ligação seguinte: <a href="{{<relref "post/html-css2.md">}}">!!!!!!!!!!!!!</a>.
+Ligação seguinte: <a href="{{<relref "post/html-css2">}}">!!!!!!!!!!!!!</a>.
 {{< /note >}}
 -->

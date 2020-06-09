@@ -363,7 +363,7 @@ Já vimos o que esta declaração faz na primeira lição, [Introdução à Web,
 
 Muitos elementos do HTML são representados em «caixas», ou seja, o respectivo conteúdo é colocado dentro de uma **caixa de conteúdo** rectangular. Essa caixa de conteúdo pode ser rodeada por uma **borda**, com uma dada **espessura**. O **enchimento** é o espaço entre a caixa de conteúdo e a sua borda. A **margem** é espaço extra fora da borda, usado para manter a caixa afastada de outros elementos. Nota que o enchimento, a espessura da borda e a margem podem ser diferentes em cada um dos quatro lados da caixa (**topo**, **base**, **esquerda** e **direita**). Vê a figura abaixo para melhor perceberes os conceitos:
 
-{{< figure src="/post/box-model.png" title="Modelo de caixas do HTML." >}}
+{{< figure src="box-model.png" title="Modelo de caixas do HTML." >}}
 
 ### A margem
 
