@@ -4,6 +4,45 @@ date: 2020-06-02T18:00:08+01:00
 tags: ['html', 'css', 'programação web']
 ---
 
+!!!!!!!!!!Criar título!
+
+CSS: Cores e medidas
+Navegação
+CSS: selectores com descendentes e ascendentes, classes
+
+Conteúdos:
+
+cores, selectores de cor, cores em hexadecimal, experiências em h1.
+hexadecimal
+
+medidas: px, em e %
+
+Absolutas:
+cm  centimeters
+mm  millimeters
+in  inches (1in = 96px = 2.54cm)
+px *  pixels (1px = 1/96th of 1in)
+pt  points (1pt = 1/72 of 1in)
+pc  picas (1pc = 12 pt)
+
+Relativas:
+em  Relative to the font-size of the element (2em means 2 times the size of the current font) 
+ex  Relative to the x-height of the current font (rarely used)  
+ch  Relative to the width of the "0" (zero) 
+rem Relative to font-size of the root element 
+vw  Relative to 1% of the width of the viewport*  
+vh  Relative to 1% of the height of the viewport* 
+vmin  Relative to 1% of viewport's* smaller dimension 
+vmax  Relative to 1% of viewport's* larger dimension  
+% Relative to the parent element
+
+Navegação
+- Código HTML
+- CSS: selectores mais complexos
+
+
+
+
 Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS](/html-css) vamos aprender a criar uma página de início e vamos ver o CSS mais a fundo.
 
 ## Recursos
@@ -45,7 +84,7 @@ Se bem te lembras, os Nanonautas tinham decidido que o seu sítio web teria quat
     - Vídeos
   - **Vejam-nos tocar** – Página com o seguinte conteúdo:
     - Onde nos podem ver tocar
-	- Próximos concertos
+    - Próximos concertos
   - **Dar um concerto** – Página com o seguinte conteúdo:
     - Como dar um concerto
     - Dicas top

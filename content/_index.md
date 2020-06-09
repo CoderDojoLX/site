@@ -30,6 +30,52 @@ Actualização COVID-19: O CoderDojo LX continua de portas (virtuais) abertas a 
     });
 </script>
 
+## CoderDojo LX #264 – p5.js@Glitch: Programação Criativa #7
+
+<div id="eventbrite-widget-container-108889920684"></div>
+
+<script src="https://www.eventbrite.pt/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '108889920684',
+        iframeContainerId: 'eventbrite-widget-container-108889920684',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
+
+## CoderDojo LX #265 – HTML/CSS: Programação web #4
+
+<div id="eventbrite-widget-container-108889890594"></div>
+
+<script src="https://www.eventbrite.pt/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '108889890594',
+        iframeContainerId: 'eventbrite-widget-container-108889890594',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
+
 ## Ninjas
 
 Tens entre 7 e 17 anos? Queres aprender a *programar*? A fazer um sítio web como este? A fazer um jogo? A programar um robô?
