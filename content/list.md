@@ -3,6 +3,10 @@ date: "2020-05-31T17:20:00+01:00"
 title: "Sessões"
 ---
 
+<!--
+Precisas de fazer highlight das sessões que têm links, não é óbvio.
+-->
+
 ## 2020
 ### Maio
 
