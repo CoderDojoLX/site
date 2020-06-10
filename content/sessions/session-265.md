@@ -1,17 +1,21 @@
 ---
-date: "2020-05-06T16:30:00+01:00"
-title: "Sessão #263 – HTML/CSS: Programação web #3"
+title: "Sessão #265 – HTML/CSS: Programação web #4"
+subtitle: ""
+date: "2020-06-13T16:30:00+01:00"
+tags: ["sessão"]
+authors: ["Matias Silva", "Manuel Sequeira"]
+type: "post"
+draft: true
 ---
 
 {{< ticks >}}
-- **Inscrição**: [Eventbrite](https://www.eventbrite.pt/e/bilhetes-coderdojo-lx-263-htmlcss-programacao-web-3-107586247362)
-- **Sessão anterior**: [HTML/CSS: Programação web #2]({{<ref "/sessions/session-261">}})
-- **Sessão seguinte**: [HTML/CSS: Programação web #4]({{<ref "/sessions/session-265">}})
+- **Inscrição**: [Eventbrite](https://www.eventbrite.pt/e/bilhetes-coderdojo-lx-265-htmlcss-programacao-web-4-108889890594)
+- **Sessão anterior**: [HTML/CSS: Programação web #3]({{<relref "/sessions/session-263.md">}})
 {{< /ticks >}}
 
-## Lançamento de projectos pessoais
+## Página de início e muito mais CSS
 
-Sessão dedicada à Programação web. Faz parte do percurso de aprendizagem [Programação web com HTML/CSS](/html-css).
+Sessão dedicada à Programação web. Corresponde à lição [Página de início e muito mais CSS]({{<relref "/post/html-css2">}}) do percurso de aprendizagem [Programação web com HTML/CSS](/post/html-css).
 
 ## Objectivos
 

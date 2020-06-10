@@ -1,5 +1,5 @@
 ---
-title: 'Página de início e muito mais CSS'
+title: 'Navegação, cores, medidas e mais selectores'
 date: 2020-06-02T18:00:08+01:00
 tags: ['html', 'css', 'programação web']
 ---

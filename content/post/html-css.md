@@ -57,3 +57,4 @@ Fomos preparando várias apresentações para cada uma das sessões que realizá
 Segue as ligações abaixo para ires percorrendo as lições deste percurso de aprendizagem:
 1. [Introdução à Web, ao HTML e ao CSS]({{< relref "post/html-css1">}})
 2. [Página de início e muito mais CSS]({{< ref "post/html-css2">}})
+3. [Navegação, cores, medidas e mais selectores]({{< ref "post/html-css3">}})
