@@ -6,3 +6,4 @@ authors: ["Matias Silva"]
 draft: false
 ---
 
+Este tutorial ajuda-te a começar os teus projetos no teu computador sem necessidade de recorrer a serviços como o Glitch. É muito útil para quando não tiveres Internet ou quiseres optar por a rapidez de correr tudo na tua máquina!

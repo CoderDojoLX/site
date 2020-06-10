@@ -4,15 +4,11 @@
 
 CoderDojo LX's web site is hosted with Github Pages, a free service that allows users to serve static files right from a repository at a [special URL](https://coderdojolx.github.io) It uses the Hugo static webpage generator with the (updated) Cupper theme.
 
-> Important change! Now you can create a blog post or a session post too! For all other posts, create as usual.
-
-Note: `hugo new blog/<name>.md` or `hugo new session/<name>.md` or `hugo new post/<name>.md` work but for different purposes!
-
 ## Getting started
 
 1. [Install Hugo on your machine](https://gohugo.io/getting-started/quick-start/)
 2. Clone this repository into your preferred workspace by using `git clone --recursive https://github.com/CoderDojoLX/site.git`(edit if you use ssh like a cool kid)
-3. `cd site` and try running `hugo server -D`and you should see an exact replica of the live site at localhost:1313
+3. `cd site` and try running `hugo server -D`and you should see an exact replica of the live site at `localhost:1313`
 
 Note: if you have already cloned the repository and the project fails to build, then it's most likely because you're missing the submodules required. Run:
 
@@ -22,15 +18,21 @@ git clone --recurse-submodules --remote-submodules git@github.com:CoderDojoLX/si
 
 ## File structure
 
-You will only need to edit the files in the `content` folder. Please avoid touching other files, it may result in the site breaking. Also avoid creating top-level files in the root content directory. You may edit the ones in the root directory but creating new files is not advised.
+You will only need to edit the files in the `content` folder. Please avoid touching other files, it may result in the site breaking. Also avoid creating top-level files in the root content directory.
 
-1. Create a post by running `hugo new post/<your file name>.md` in the site's root directory
-2. Add the appropriate tags to suit the style of your post. You may view all current tags in use [here](https://coderdojolx.github.io/tags/). There is a reason why I have chosen not to display this in the menu bar...
+* For a blog post, run `hugo new blog/<name>.md`
+* For a post about a session, run `hugo new sessions/<name>.md`
+* For other posts, `hugo new post/<name>.md`
+
+For now, these are stylistically the same, but contain different metadata or styling in the future.
+
+1. Create a post using the instructions above
+2. Add the appropriate tags to suit the style of your post. You may view all current tags in use [here](https://coderdojolx.github.io/tags/). This has been hidden for visual purposes.
 3. Write your content in markdown. For a primer on markdown visit [this link](https://cupper-hugo-theme.netlify.app/cupper-typography/) and for specific features that Cupper offers, visit [this link](https://cupper-hugo-theme.netlify.app/cupper-shortcodes/). The note directive and the ticks directive are the most useful.
 
-Root directory files are in English while post files are in Portuguese - this choice is arbitrary but things will break if we deviate.
+Root directory file and post file names are in English - this choice is arbitrary but things will break if we deviate.
 
-You may link to your new post using the _relref directive_ `{{< relref "signup.md" >}}` in your markdown link reference. See the existing content for examples, or the helpful guides linked above.
+You may link to your new post using the _relref directive_ `{{< relref "signup" >}}` in your markdown link reference. In some situations, it may be preferred to use an absolute reference, for this use the _ref directive_ `{{< ref "/sessions/signup" >}}`. Never link to individual files, always to the post name (without the file extension) so that transforming any post to a folder will be minimal in effort. See the existing content for examples, or the helpful guides linked above.
 
 ## Updating
 
