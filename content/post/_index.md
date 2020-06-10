@@ -1,3 +1,3 @@
 ---
-title: Blogue
+title: Lista de posts
 ---
