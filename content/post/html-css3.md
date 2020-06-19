@@ -4,7 +4,13 @@ date: 2020-06-02T18:00:08+01:00
 tags: ['html', 'css', 'programação web']
 ---
 
-!!!!!!!!!!Criar título!
+{{< warning >}}
+Atenção! Esta página ainda está em desenvolvimento!
+{{< /warning >}}
+
+Páginas 30 a 41 do livro
+
+Exemplos 34, 35, 41=35+NAV EM TODAS e 43.
 
 CSS: Cores e medidas
 Navegação
@@ -17,25 +23,6 @@ hexadecimal
 
 medidas: px, em e %
 
-Absolutas:
-cm  centimeters
-mm  millimeters
-in  inches (1in = 96px = 2.54cm)
-px *  pixels (1px = 1/96th of 1in)
-pt  points (1pt = 1/72 of 1in)
-pc  picas (1pc = 12 pt)
-
-Relativas:
-em  Relative to the font-size of the element (2em means 2 times the size of the current font) 
-ex  Relative to the x-height of the current font (rarely used)  
-ch  Relative to the width of the "0" (zero) 
-rem Relative to font-size of the root element 
-vw  Relative to 1% of the width of the viewport*  
-vh  Relative to 1% of the height of the viewport* 
-vmin  Relative to 1% of viewport's* smaller dimension 
-vmax  Relative to 1% of viewport's* larger dimension  
-% Relative to the parent element
-
 Navegação
 - Código HTML
 - CSS: selectores mais complexos
@@ -43,35 +30,107 @@ Navegação
 
 
 
-Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS](/html-css) vamos aprender a criar uma página de início e vamos ver o CSS mais a fundo.
+Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS](/html-css) vamos aprender a criar uma barra de navegação para o nosso sítio web e vamos aprender um pouco mais sobre folhas de estilo em CSS, incluindo como usar cores nas declarações, que unidades de medida se podem usar e como usar selectores mais sofisticados.
 
 ## Recursos
 
-- **[Sessão #261 (HTML/CSS #2)]({{<ref "/sessions/session-261">}})** – Sessão do CoderDojo LX correspondente a esta secção.
-- **[Apresentação da sessão #261 (HTML/CSS #2)](https://bit.ly/cdlx-html2)** – A apresentação usada nessa sessão.
-- **[nanonautas-sessao2](https://glitch.com/~nanonautas-sessao2)** – Projecto com que podes começar esta lição. Também podes começar onde terminaste a ligação anterior.
-- Os exemplos do livro correspondentes a esta sessão:
-  - **[nanonautas-p18](https://glitch.com/~nanonautas-p18)** – Projecto até à página 18 do livro.
-  - **[nanonautas-p22](https://glitch.com/~nanonautas-p22)** – Projecto até à página 22 do livro.
-  - **[nanonautas-p28](https://glitch.com/~nanonautas-p28)** – Projecto até à página 28 do livro.
+- **[Sessão #265 (HTML/CSS #4)]({{<ref "/sessions/session-265">}})** – Sessão do CoderDojo LX correspondente a esta secção.
+- **[Apresentação da sessão #265 (HTML/CSS #4)](https://bit.ly/cdlx-html4)** – A apresentação usada nessa sessão.
+- **[nanonautas-sessao4](https://glitch.com/~nanonautas-sessao4)** – Projecto com que podes começar esta lição. Também podes começar onde terminaste a lição anterior.
+- Os exemplos do livro correspondentes a esta lição:
+  - **[nanonautas-p34](https://glitch.com/~nanonautas-p34)** – Projecto até à página 34 do livro.
+  - **[nanonautas-p35](https://glitch.com/~nanonautas-p35)** – Projecto até à página 35 do livro.
+  - **[nanonautas-p41](https://glitch.com/~nanonautas-p41)** – Projecto até à página 41 do livro.
+  - **[nanonautas-p43](https://glitch.com/~nanonautas-p43)** – Projecto até à página 43 do livro.
 
-## Mais uma página
+## Cores em CSS
 
-Abre o projecto que completaste na lição anterior, [Introdução à Web, ao HTML e ao CSS]({{<relref "post/html-css1">}}). Se preferires, podes abrir o nosso projecto de arranque para esta lição, [nanonautas-sessao2](https://glitch.com/~nanonautas-sessao2), e remisturá-lo.
+Abre o projecto que completaste na lição anterior, [Página de início e muito mais CSS]({{<relref "post/html-css2">}}). Se preferires, podes abrir o nosso projecto de arranque para esta lição, [nanonautas-sessao4](https://glitch.com/~nanonautas-sessao4), e remisturá-lo. Não te esqueças de abrir o painel direito de visualização do sítio web, para poderes ir vendo o resultado de todas as alterações que fores fazendo.
 
-{{< note >}}
-Talvez esteja na altura de dar um nome apropriado ao teu projecto, se não o fizeste ainda. No Glitch, no editor do projecto, clica sobre o nome do teu projecto no canto superior esquerdo. Dá-lhe um nome apropriado.
-{{< /note >}}
-
-Neste momento o sítio web dos Nanonautas tem já duas páginas web, `as-nossas-cancoes.html` e `sobre-nos.html`. Aqui vai a estrutura de pastas e arquivos neste momento:
+Neste momento o sítio web dos Nanonautas tem já cinco páginas web, incluindo uma página inicial. Aqui vai a estrutura de pastas e arquivos neste momento:
 
 {{< fileTree >}}
 <code>/</code> [pasta raiz]
   * css
     * minha-folha-de-estilo.css
   * as-nossas-cancoes.html
+  * dar-um-concerto.html
+  * index.html
   * sobre-nos.html
+  * vejam-nos-tocar.html
 {{< /fileTree >}}
+
+Lembras-te como usaste a tua tua folha de estilo para dar cor a diferentes partes das tuas páginas web? Vamos agora estudar um pouco as diferentes formas de indicar as cores em CSS.
+
+Começa por abrir a tua folha de estilo, `css/minha-folha-de-estilo.css`. Cria uma nova regra, temporária, só para veres o efeito. Coloca-a logo no início da folha de estilo:
+
+{{< code numbered="true" >}}
+[[[h1]]] {
+  [[[background-color]]]: [[[Yellow]]];
+}
+
+body {
+  […]
+}
+
+html {
+  […]
+}
+{{< /code >}}
+
+1. Como vês, a nossa regra usa o selector `h1`, o que significa que se aplica apenas aos elementos `H1`, que se bem te recordas são os títulos dos nosos «capítulos». Por isso, apenas o fundo do título «Somos os Nanonautas!» apareceu a amarelo.
+2. Recorda-te que esta é a propriedade que corresponde à cor (*color*) do fundo (*background*).
+3. Finalmente, chegamos aqui à parte que nos interessa mais neste momento: a cor. O valor `Yellow` corresponde naturalmente à cor amarela. Mas será o CSS inteligente o suficiente para compreender qualquer cor? Vamos ver.
+
+Vamos fazer mais umas experiências:
+- Substitui `Yellow` por `Red`. Que tal? Parece que o CSS sabe o que é que *red* significa, em inglês.
+- Experimenta `Blue`. Funciona, certo?
+- Experimenta também `LightBlue`. Que tal?
+- E se for `Light Blue`? Funciona? Pelos vistos não: o CSS não permite espaços entre as palavras que compõem o nome de uma cor.
+- Vamos tentar uma cor mais sofisticada: `LightSeaGreen`. Uau! Verde-mar claro!
+- Também podes experimentar nomes em português, mas como o CSS usa o inglês como base, o mais certo é falhares.
+- E que tal, digamos, `Mauve`?  Então? Pelos vistos, a cor malva é demasiado sofisticada para o CSS…
+ 
+Conclusão? O CSS permite-nos indicar muitas cores textualmente, pelo seu nome, mas não todas as que se podem exprimir em inglês. Consulta a página [CSS3 Color Names](https://www.cssportal.com/css3-color-names/) e verás que o CSS reconhece 147 nomes de cores.
+
+Embora as cores do mundo real sejam muito mais ricas do que as cores que podemos representar nos nossos computadores, os nossos computadores são capazes de representar muito mais cores do que as cores representadas pelos 147 nomes de cores que o CSS reconhece. Na realidade, os nossos computadores usualmente distinguem 256 × 256 × 256 = 16&nbsp;777&nbsp;216 cores. Isso: dezasseis milhões, setecentas e setenta e sete mil, duzentas e dezasseis cores.
+
+<style type="text/css">
+  table {
+    border: none;
+    width: 100%;
+  }
+  td {
+    border: 10px solid White;
+    font-size: 12pt;
+    text-align: center;
+  }
+</style>
+<table >
+  <tbody>
+    <tr>
+      <td style="text-align: right; width: 100px;"><strong>Cardo:</strong></td>
+      <td style="background-color: Thistle">Thistle</td>
+      <td style="background-color: #D8BFD8">#D8BFD8</td>
+      <td style="background-color: rgb(216, 191, 216)">rgb(216, 191, 216)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right; width: 100px;"><strong>Malva:</strong></td>
+      <td style="background-color: Mauve">Mauve</td>
+      <td style="background-color: #E0B0FF">#E0B0FF</td>
+      <td style="background-color: rgb(224, 176, 255)">rgb(224, 176, 255)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right; width: 100px;"><strong>Café:</strong></td>
+      <td style="background-color: Coffee">Coffee</td>
+      <td style="background-color: #6F4E37; color: White">#6F4E37</td>
+      <td style="background-color: rgb(111, 78, 55); color: White">rgb(111, 78, 55)</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 
 Se bem te lembras, os Nanonautas tinham decidido que o seu sítio web teria quatro páginas *além de uma página inicial*. 
 - **Início** – Página com ligações para as seguintes páginas:
