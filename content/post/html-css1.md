@@ -11,7 +11,7 @@ Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS](/html
 - **[Sessão #259 (HTML/CSS #1)]({{<ref "/sessions/session-259">}})** – Sessão do CoderDojo LX correspondente a esta secção.
 - **[Apresentação da sessão #259 (HTML/CSS #1)](https://bit.ly/cdlx-html1)** – A apresentação usada nessa sessão.
 - **[nanonautas-começa-aqui](https://glitch.com/~nanonautas-comeca-aqui)** – Projecto com que deves começar esta lição.
-- Os exemplos do livro correspondentes a esta sessão:
+- Os exemplos do livro correspondentes a esta lição:
   - **[nanonautas-p8](https://glitch.com/~nanonautas-p8)** – Projecto até à página 8 do livro.
   - **[nanonautas-p10](https://glitch.com/~nanonautas-p10)** – Projecto até à página 10 do livro.
   - **[nanonautas-p13](https://glitch.com/~nanonautas-p13)** – Projecto até à página 13 do livro.
