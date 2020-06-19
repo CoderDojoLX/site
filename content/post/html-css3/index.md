@@ -4,11 +4,7 @@ date: 2020-06-02T18:00:08+01:00
 tags: ['html', 'css', 'programação web']
 ---
 
-{{< warning >}}
-Atenção! Esta página ainda está em desenvolvimento!
-{{< /warning >}}
-
-Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS](/html-css) vamos aprender a criar uma barra de navegação para o nosso sítio web e vamos aprender um pouco mais sobre folhas de estilo em CSS, incluindo como usar cores nas declarações, que unidades de medida se podem usar e como usar selectores mais sofisticados.
+Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS]({{<relref "post/html-css">}}) vamos aprender a criar uma barra de navegação para o nosso sítio web e vamos aprender um pouco mais sobre folhas de estilo em CSS, incluindo como usar cores nas declarações, que unidades de medida se podem usar e como usar selectores mais sofisticados.
 
 ## Recursos
 

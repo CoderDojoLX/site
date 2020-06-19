@@ -4,7 +4,7 @@ date: 2020-06-02T18:00:08+01:00
 tags: ['html', 'css', 'programação web']
 ---
 
-Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS](/html-css) vamos aprender a criar uma página de início e vamos ver o CSS mais a fundo.
+Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS]({{<relref "post/html-css">}}) vamos aprender a criar uma página de início e vamos ver o CSS mais a fundo.
 
 ## Recursos
 

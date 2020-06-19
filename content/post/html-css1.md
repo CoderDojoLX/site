@@ -4,7 +4,7 @@ date: 2020-06-02T18:00:08+01:00
 tags: ['html', 'css', 'programação web']
 ---
 
-Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS](/html-css) vamos ver o que é a web, o que são sítios e páginas web, e como podemos programar para a web usando o HTML e o CSS.
+Nesta lição do percurso de aprendizagem [Programação web com HTML/CSS]({{<relref "post/html-css">}}) vamos ver o que é a web, o que são sítios e páginas web, e como podemos programar para a web usando o HTML e o CSS.
 
 ## Recursos
 
