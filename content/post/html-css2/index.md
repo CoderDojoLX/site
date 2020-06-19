@@ -504,11 +504,11 @@ html {
 E é isto! Navega um pouco pelo teu sítio web e aprecia-o. Nada mau, hein?
 
 {{< note >}}
-Confirma que o teu sítio web, e todas as suas páginas, se assemelham a <a href="https://nanonautas-p28.glitch.me" target="_blank">este projecto</a>. Se algo falhar, compara o teu projecto com o que podes encontrar <a href="https://glitch.com/~nanonautas-p18" target="_blank">aqui</a> (clica em «View Source»).
+Confirma que o teu sítio web, e todas as suas páginas, se assemelham a <a href="https://nanonautas-p28.glitch.me" target="_blank">este projecto</a>. Se algo falhar, compara o teu projecto com o que podes encontrar <a href="https://glitch.com/~nanonautas-p28" target="_blank">aqui</a> (clica em «View Source»).
 {{< /note >}}
 
 {{< note >}}
-Ligação seguinte: <a href="{{<relref "post/html-css3.md">}}">Navegação, cores, medidas e mais selectores</a>.
+Lição seguinte: <a href="{{<relref "post/html-css3.md">}}">Navegação, cores, medidas e mais selectores</a>.
 {{< /note >}}
 
 Teste
