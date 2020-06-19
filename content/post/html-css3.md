@@ -62,6 +62,8 @@ Neste momento o sítio web dos Nanonautas tem já cinco páginas web, incluindo 
 
 Lembras-te como usaste a tua tua folha de estilo para dar cor a diferentes partes das tuas páginas web? Vamos agora estudar um pouco as diferentes formas de indicar as cores em CSS.
 
+### Nomes de cores
+
 Começa por abrir a tua folha de estilo, `css/minha-folha-de-estilo.css`. Cria uma nova regra, temporária, só para veres o efeito. Coloca-a logo no início da folha de estilo:
 
 {{< code numbered="true" >}}
@@ -91,10 +93,140 @@ Vamos fazer mais umas experiências:
 - Também podes experimentar nomes em português, mas como o CSS usa o inglês como base, o mais certo é falhares.
 - E que tal, digamos, `Mauve`?  Então? Pelos vistos, a cor malva é demasiado sofisticada para o CSS…
  
-Conclusão? O CSS permite-nos indicar muitas cores textualmente, pelo seu nome, mas não todas as que se podem exprimir em inglês. Consulta a página [CSS3 Color Names](https://www.cssportal.com/css3-color-names/) e verás que o CSS reconhece 147 nomes de cores.
+Conclusão? O CSS permite-nos indicar muitas cores textualmente, pelo seu nome, mas não todas as que se podem exprimir em inglês. Consulta a página [CSS3 Color Names](https://www.cssportal.com/css3-color-names/) e verás que o CSS reconhece 148 nomes de cores. Também podes ver essas cores todas [aqui](https://all-css-color-names.glitch.me/).
 
-Embora as cores do mundo real sejam muito mais ricas do que as cores que podemos representar nos nossos computadores, os nossos computadores são capazes de representar muito mais cores do que as cores representadas pelos 147 nomes de cores que o CSS reconhece. Na realidade, os nossos computadores usualmente distinguem 256 × 256 × 256 = 16&nbsp;777&nbsp;216 cores. Isso: dezasseis milhões, setecentas e setenta e sete mil, duzentas e dezasseis cores.
+### Quantidade de cores no computador
 
+Embora as cores do mundo real sejam muito mais ricas do que as cores que podemos representar nos nossos computadores, os nossos computadores são capazes de representar muito mais cores do que as cores representadas pelos 147 nomes de cores que o CSS reconhece. Na realidade, os nossos computadores usualmente distinguem 256 × 256 × 256 = 16&nbsp;777&nbsp;216 cores. Isso: dezasseis milhões, setecentas e setenta e sete mil, duzentas e dezasseis cores!
+
+### RGB e a função `rgb()` do CSS
+
+Mas, de onde vêem essas cores todas? Nos nossos computadores, as cores são representadas na forma de misturas de três cores:
+
+![Adição de vermelho, verde e azul](https://upload.wikimedia.org/wikipedia/commons/2/28/RGB_illumination.jpg)
+
+As três cores são:
+- R – *red* ou vermelho
+- G – *green* ou verde
+- B – *blue* ou azul
+
+Consoante a intensidade de cada uma destas três cores, assim terás uma cor diferente. Mas, e os 16&nbsp;777&nbsp;216? Eles surgem porque o usual é estas três intensidades poderem tomar valores entre 0 e 255, ou seja, 256 valores diferentes. Como há três intensidades (R, G e B), isso resulta em 256 × 256 × 256 = 16&nbsp;777&nbsp;216 cores diferentes. Vê todas estas diferentes cores na seguinte imagem:
+
+![Todas as cores possíveis  no computador](https://allrgb.com/images/domain-warped-simplex-noise-as-hsv.png)
+
+{{< note >}}
+Mas nota que os computadores não representam de todo todas as cores que nós, humanos, distinguimos! Há muito mais do que 16&nbsp;777&nbsp;216, para os humanos. Na realidade, infinitas. :-)
+{{< /note >}}
+
+Faz agora a seguinte alteração:
+{{< code numbered="true" >}}
+h1 {
+  background-color: [[[rgb(0, 0, 0)]]];
+}
+
+[…]
+{{< /code >}}
+
+1. Vês alguma diferença? Claro que sim! O que não vês é tudo negro. :-) É que a cor `rgb(0, 0, 0)` (estamos a usar a função `rgb()`do CSS) significa intensidade zero nas três cores R, G e B, logo o resultado é… preto. Letras pretas sobre fundo preto dão no que vês.
+
+Agora experimenta os seguintes valores:
+- `rgb(255,   0,   0)` – Vermelho
+- `rgb(  0, 255,   0)` – Verde
+- `rgb(  0,   0, 255)` – Azul
+- `rgb(255, 255,   0)` – Amarelo
+- `rgb(255,   0, 255)` – Magenta
+- `rgb(  0, 255, 255)` – Ciano
+- `rgb(255, 255, 255)` – Branco
+- `rgb(224, 176, 255)` – Malva (afinal é possível, mas não com um nome de cor, como `Mauve`)
+- `rgb(111,  78,  55)` – Café
+
+Isto dá-te uma grande flexibilidade para escolheres as tuas cores. Mas a verdade é que esta forma de indicar as cores em CSS é pouco usada. O mais usual é usar-se códigos hexadecimais. Já vamos ver o que isso é.
+
+### Numeração hexadecimal
+
+Internamente, os computadores trabalham com numeração binária, ou seja, com números que são representados apenas com dois dígitos ou algarismos: o 0 (zero) e o 1 (um). Infelizmente, para nós humanos escrever os números em numeração binária é bastante infernal. Por exemplo, 78 em numeração binária é 1001110.
+
+Sendo a numeração binária inconveniente, muitas vezes usa-se a numeração hexadecimental, que é muito fácil converter para numeração binária, e que é mais fácil de usar por nós humanos. Mas o que significa hexadecimal? Significa que usamos não dois dígitos ou algarismos, como na numeração binária, nem dez algarismos, como na numeração decimal (a que usamos todos os dias), mas sim 16 dígitos.
+
+Os algarismos na numeração decimal são os que já conheces: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9. E os da numeração hexadecimal? Podíamos inventar símbolos para cada um deles, mas como os programadores são muito práticos, decidiram usar os mesmos que na numeração decimal: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9. O problema é que não chegam: faltam seis algarismos. Mais uma vez de forma muito prática, os programadores decidiram usar as primeiras seis letras. Ou seja, na numeração hexadecimal há 16 algarismos:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- A (com valor 10)
+- B (com valor 11)
+- C (com valor 12)
+- D (com valor 13)
+- E (com valor 14)
+- F (com valor 15)
+
+E como se representam os números? Recordas-te como funcionam os números na numeração decimal? Os algarismos têm *pesos* diferentes consoante a posição (vamos esquecer os números com parte fraccionária). Por exemplo, o número 5432 significa 5 milhares, 4 centenas, 3 dezenas e 2 unidades. Podemos escrever este número das seguintes formas:
+- 5432
+- 5 × 1000 + 4 × 100 + 3 × 10 + 2 × 1
+- 5 × 10 × 10 × 10 + 4 × 10 × 10 + 3 × 10 + 2 × 1
+
+Na numeração hexadecimal é o mesmo, mas não esquecendo que em vez de 10, estamos a trabalhar com 16 algarismos, de 0 a F. Então, que significa, por exemplo, o número #1538 (para distinguir os números em hexadecimal dos números em decimal, precedêmo-los do caractere #, que é o que o CSS faz)? Vejamos:
+- #1538
+- #1 × 16 × 16 × 16 + #5 × 16 × 16 + #3 × 16 + #8 × 1
+
+{{< note >}}
+Repara como agora já não temos 10, mas 16.
+{{< /note >}}
+
+Ora, como os números hexadecimais #1, #5, #3 e #8 são exactamente iguais aos números decimais 1, 5, 3 e 8, temos:
+- 1 × 16 × 16 × 16 + 5 × 16 × 16 + 3 × 16 + 8 × 1
+
+Agora é só fazer as contas, sabendo que 16 × 16 × 16 = 4096 e que 16 × 16 = 256:
+- 1 × 4096 + 5 × 256 + 3 × 16 + 8 × 1
+- 4096 + 1280 + 48 + 8
+- 5432
+
+Ou seja #1538 = 5432!
+
+{{< note >}}
+Repara como agora já não temos milhares, centenas e dezenas, mas sim… err… «milhares» hexadecimais que valem 4096, «centenas» hexadecimais que valem 256 e «dezenas» hexadecimais que valem 16. 
+{{< /note >}}
+
+Vamos ver outros exemplos. Lembras-te da cor café? Exacto, era representada por `rgb(111, 78, 55)`. Estes três números, representados em base 16, ou seja, em numeração hexadecimal, são #6F, #4E e #37. Vamos ver:
+- #6F = #6 × 16 + #F × 1 = 6 × 16 + 15 × 1 = 96 + 15 = 111
+- #4E = #4 × 16 + #E × 1 = 4 × 16 + 14 × 1 = 64 + 14 = 78
+- #37 = #3 × 16 + #7 × 1 = 3 × 16 + 7 × 1 = 48 + 7 = 55
+
+Então, e como se usam estes números hexadecimais em CSS? Basta pegar nos algarismos hexadecimais de cada valor R, G e B e contruir um único número grandão: `#6F4E37`. Experimenta o seguinte:
+
+{{< code numbered="true" >}}
+h1 {
+  background-color: [[[#6F4E37]]];
+}
+
+[…]
+{{< /code >}}
+
+1. Repara como a representação hexadecimal no CSS é curtinha e compacta. Isto é exactamente o mesmo que `rgb(111, 78, 55)`, e por isso representa a cor café.
+
+Vamos ver outro exemplo, o da cor malva. Esta cor é representada por `rgb(224, 176, 255)`. Estes três números, representados em base 16, ou seja, em numeração hexadecimal, são #E0, #B0 e #FF. Vamos ver:
+- #E0 = #E × 16 + #0 × 1 = 14 × 16 + 0 × 1 = 224 + 0 = 224
+- #B0 = #B × 16 + #0 × 1 = 11 × 16 + 0 × 1 = 176 + 0 = 176
+- #FF = #F × 16 + #F × 1 = 15 × 16 + 15 × 1 = 240 + 15 = 255
+
+Agora experimenta os seguintes valores no CSS:
+- `#FF0000` = `rgb(255,   0,   0)` – Vermelho
+- `#00FF00` = `rgb(  0, 255,   0)` – Verde
+- `#0000FF` = `rgb(  0,   0, 255)` – Azul
+- `#FFFF00` = `rgb(255, 255,   0)` – Amarelo
+- `#FF00FF` = `rgb(255,   0, 255)` – Magenta
+- `#00FFFF` = `rgb(  0, 255, 255)` – Ciano
+- `#FFFFFF` = `rgb(255, 255, 255)` – Branco
+- `#E0B0FF` = `rgb(224, 176, 255)` – Malva
+- `#6F4E37` = `rgb(111,  78,  55)` – Café
+
+Estas cores estão representadas na tabela abaixo, tanto usando o nome CSS (quando existe), como a notação hexadecimal e a função `rgb()`:
 <style type="text/css">
   table {
     border: none;
@@ -109,26 +241,106 @@ Embora as cores do mundo real sejam muito mais ricas do que as cores que podemos
 <table >
   <tbody>
     <tr>
-      <td style="text-align: right; width: 100px;"><strong>Cardo:</strong></td>
-      <td style="background-color: Thistle">Thistle</td>
-      <td style="background-color: #D8BFD8">#D8BFD8</td>
-      <td style="background-color: rgb(216, 191, 216)">rgb(216, 191, 216)</td>
+      <td style="text-align: right; width: 100px;"><strong>Vermelho:</strong></td>
+      <td style="background-color: Red">Red</td>
+      <td style="background-color: #FF0000">#FF0000</td>
+      <td style="background-color: rgb(255, 0, 0)">rgb(255, 0, 0)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right; width: 100px;"><strong>Verde:</strong></td>
+      <td style="background-color: Lime">Lime</td>
+      <td style="background-color: #00FF00">#00FF00</td>
+      <td style="background-color: rgb(0, 255, 0)">rgb(0, 255, 0)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right; width: 100px;"><strong>Azul:</strong></td>
+      <td style="background-color: Blue">Blue</td>
+      <td style="background-color: #0000FF">#0000FF</td>
+      <td style="background-color: rgb(0, 0, 255)">rgb(0, 0, 255)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right; width: 100px;"><strong>Amarelo:</strong></td>
+      <td style="background-color: Yellow">Yellow</td>
+      <td style="background-color: #FFFF00">#FFFF00</td>
+      <td style="background-color: rgb(255, 255, 0)">rgb(255, 255, 0)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right; width: 100px;"><strong>Magenta:</strong></td>
+      <td style="background-color: Magenta">Magenta</td>
+      <td style="background-color: #FF00FF">#FF00FF</td>
+      <td style="background-color: rgb(255, 0, 255)">rgb(255, 0, 255)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right; width: 100px;"><strong>Ciano:</strong></td>
+      <td style="background-color: Cyan">Cyan</td>
+      <td style="background-color: #00FFFF">#00FFFF</td>
+      <td style="background-color: rgb(0, 255, 255)">rgb(0, 255, 255)</td>
     </tr>
     <tr>
       <td style="text-align: right; width: 100px;"><strong>Malva:</strong></td>
-      <td style="background-color: Mauve">Mauve</td>
+      <td>-</td>
       <td style="background-color: #E0B0FF">#E0B0FF</td>
       <td style="background-color: rgb(224, 176, 255)">rgb(224, 176, 255)</td>
     </tr>
     <tr>
       <td style="text-align: right; width: 100px;"><strong>Café:</strong></td>
-      <td style="background-color: Coffee">Coffee</td>
+      <td>-</td>
       <td style="background-color: #6F4E37; color: White">#6F4E37</td>
       <td style="background-color: rgb(111, 78, 55); color: White">rgb(111, 78, 55)</td>
     </tr>
   </tbody>
 </table>
 
+{{< note >}}
+Já viste com o verde do RGB se chama `Lime` em CSS? Estranho!
+{{< /note >}}
+
+Haveria muito mais a dizer sobre as cores, mas para já chega (e já é muito!).
+
+Resta dizer-te que escolher cores é muito mais fácil do que parece. Experimenta estas ferramentas:
+- [Selector de cores da Google](https://bit.ly/cdlx-color1)
+- [Selector de cores de Dixon & Moe](https://bit.ly/cdlx-color2)
+- [Selector de cores da MDN](https://bit.ly/cdlx-color3)
+
+{{< note >}}
+MDN significa *MDN Web Docs* (antes significava *Mozilla Developer Network*) e é um sítio web com imensos recursos para quem quer criar para a Web.
+{{< /note >}}
+
+{{< warning >}}
+Não te esqueças de remover a regra <code>h1</code> com que estivemos a fazer experiências!
+{{< /warning >}}
+
+## Unidades de medida
+
+Vamos fazer aqui um pequeno desvio, para falar de unidades. Abre a tua folha de estilos. Altera temporariamente a declaração do enchimento do corpo da página:
+
+{{< code numbered="true" >}}
+body {
+  […]
+  padding-left: [[[100px]]];
+  […]
+}
+
+html {
+  […]
+}
+{{< /code >}}
+
+1. O que sucedeu? O conteúdo do corpo passou a ter um enchimento, que o separa da borda, de 100 `px`. O significado original de `px` era píxeis (os quadradinhos com as três cores R, G e B nos quais o teu ecrã se divide), mas acabou por evoluir, e hoje tem um significado mais fugidio. Algo como isto: «a unidade mais pequena representável no ecrã mais ainda claramente visível pelo olho humano». Experimenta com outros valores. Por exemplo, `0px`.
+
+Agora experimenta as seguintes medidas:
+- `25%` – Isto significa 25% (ou 1/4) da largura do elemento por fora do corpo do HTML (que é a página HTML).
+- `10em` – Isto significa 10 × o tamanho da fonte que está a ser utilizado.
+
+Brinca um pouco com diferentes valores.
+
+{{< warning >}}
+Não te esqueças de voltar a colocar <code>24px</code> o enchimento do corpo da página!
+{{< /warning >}}
+
+## Navegação
+
+Este é o tema mais interessante desta lição. Dá uma olhada no teu sítio web. Na página inicial, clica numa das ligações. Agora que estás muma outra página do teu sítio web, o que tens de fazer se quiseres ir para outra página? Exacto, tens de voltar atrás e repetir o processo. Chato. Quase todos os sítios web têm uma barra / menu de navegação. Aqui no sítio web do CoderDojo LX encontras um menu de navegação à esquerda. No caso do sítio web dos nanonautas, o que queremos é uma barra de navegação com bom aspecto, como a que podes ver aqui: 
 
 
 
