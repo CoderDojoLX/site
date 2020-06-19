@@ -1,6 +1,7 @@
 ---
 title: "Sessão #260 - p5.js@Glitch: Programação Criativa #5"
 date: 2020-05-30T14:30:00+01:00
+type: "post"
 ---
 
 **Inscrição**: [Eventbrite](https://www.eventbrite.pt/e/bilhetes-coderdojo-lx-260-p5jsglitch-programacao-criativa-5-107205905750)

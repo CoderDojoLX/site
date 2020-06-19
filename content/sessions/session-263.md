@@ -1,6 +1,9 @@
 ---
 date: "2020-05-06T16:30:00+01:00"
 title: "Sessão #263 – HTML/CSS: Programação web #3"
+tags: ["sessão"]
+authors: ["Manuel Menezes de Sequeira"]
+type: "post"
 ---
 
 {{< ticks >}}

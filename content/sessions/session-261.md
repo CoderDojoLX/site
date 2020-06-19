@@ -1,6 +1,9 @@
 ---
 date: "2020-05-30T16:30:00+01:00"
 title: "Sessão #261 – HTML/CSS: Programação web #2"
+tags: ["sessão"]
+authors: ["Manuel Menezes de Sequeira"]
+type: "post"
 ---
 
 {{< ticks >}}
@@ -34,4 +37,5 @@ Os ninjas no final da sessão deverão:
   - **[nanonautas-p18](https://glitch.com/~nanonautas-p18)** – Projecto até à página 18 do livro.
   - **[nanonautas-p22](https://glitch.com/~nanonautas-p22)** – Projecto até à página 22 do livro.
   - **[nanonautas-p28](https://glitch.com/~nanonautas-p28)** – Projecto até à página 28 do livro.
+- **[nanonautas-sessao2-final](https://glitch.com/~nanonautas-sessao2-final)** – Projecto final da sessão.
 - **[Projectos do CoderDojo LX #261](https://glitch.com/@cdlx/projectos-do-coder-dojo-lx-261)** – Projectos realizados por ninjas durante a sessão.
