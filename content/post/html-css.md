@@ -19,6 +19,8 @@ Neste percurso de aprendizagem vamos seguir o excelente livro [Criar com Código
 Este percurso de aprendizagem foi seguido ao longo de algumas das nossas sessões remotas. Aqui vão elas:
 - [Sessão #259 (HTML/CSS #1)]({{<ref "/sessions/session-259">}})
 - [Sessão #261 (HTML/CSS #2)]({{<ref "/sessions/session-261">}})
+- [Sessão #263 (HTML/CSS #2)]({{<ref "/sessions/session-263">}})
+- [Sessão #265 (HTML/CSS #2)]({{<ref "/sessions/session-265">}})
 
 Alguns dos materiais sugeridos abaixo correspondem a estas sessões. Mas não precisas de ter participado nas sessões para seguir este percurso de aprendizagem!
 
@@ -51,6 +53,7 @@ Lembra-te que, à medida que segues na tua aprendizagem ou que lês o livro, pod
 Fomos preparando várias apresentações para cada uma das sessões que realizámos remotamente sobre este percurso de aprendizagem. Talvez aches útil vê-las! Estão aqui:
 - [Apresentação da sessão #259 (HTML/CSS #1)](https://bit.ly/cdlx-html1)
 - [Apresentação da sessão #261 (HTML/CSS #2)](https://bit.ly/cdlx-html2)
+- [Apresentação da sessão #261 (HTML/CSS #4)](https://bit.ly/cdlx-html4)
 
 ## Percurso de aprendizagem
 
