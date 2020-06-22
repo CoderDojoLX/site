@@ -31,8 +31,9 @@ Nesta sequência aconselhamos-te a usar o [Glitch](https://glitch.com/). Se tens
 Criámos no Glitch uma colecção onde encontras vários projectos de arranque e exemplos do sítio web dos Nanonautas correspondentes às várias páginas do livro. A colecção chama-se [Exemplos das sessões HTML/CSS: Programação Web](https://glitch.com/@cdlx/exemplos-das-sessoes-html-css-programacao-web). 
 
 Os projectos de arranque são:
-- **[nanonautas-começa-aqui](https://glitch.com/~nanonautas-comeca-aqui)** – Projecto com que deves começar este percurso de aprendizagem e que foi usado na sessão #259 (HTML/CSS #1).
-- **[nanonautas-sessao2](https://glitch.com/~nanonautas-sessao2)** – Projecto com que podes começar a sessão #261 (HTML/CSS #2).
+- **[nanonautas-começa-aqui](https://glitch.com/~nanonautas-comeca-aqui)** – Projecto com que deves começar a primeira lição e que foi usado na sessão #259 (HTML/CSS #1).
+- **[nanonautas-sessao2](https://glitch.com/~nanonautas-sessao2)** – Projecto com que podes começar a segunda lição deste percurso de aprendizagem e que foi usado na sessão #261 (HTML/CSS #2).
+- **[nanonautas-sessao4](https://glitch.com/~nanonautas-sessao2)** – Projecto com que podes começar a terceira lição deste percurso de aprendizagem e e que foi usado na sessão #265 (HTML/CSS #4).
 
 Os exemplos do livro são:
 - **[nanonautas-p8](https://glitch.com/~nanonautas-p8)** – Projecto até à página 8 do livro.
@@ -42,9 +43,14 @@ Os exemplos do livro são:
 - **[nanonautas-p18](https://glitch.com/~nanonautas-p18)** – Projecto até à página 18 do livro.
 - **[nanonautas-p22](https://glitch.com/~nanonautas-p22)** – Projecto até à página 22 do livro.
 - **[nanonautas-p28](https://glitch.com/~nanonautas-p28)** – Projecto até à página 28 do livro.
+- **[nanonautas-p34](https://glitch.com/~nanonautas-p34)** – Projecto até à página 34 do livro.
+- **[nanonautas-p35](https://glitch.com/~nanonautas-p35)** – Projecto até à página 35 do livro.
+- **[nanonautas-p41](https://glitch.com/~nanonautas-p41)** – Projecto até à página 41 do livro.
+- **[nanonautas-p43](https://glitch.com/~nanonautas-p43)** – Projecto até à página 43 do livro.
 
-Tens também o projecto que resultou da sessão #261 (HTML/CSS #2):
-- **[nanonautas-sessao2-final](https://glitch.com/~nanonautas-sessao2-final)** – Projecto feito ao longo da sessão #261 (HTML/CSS #2).
+Tens também os projectos que finais das várias sessões:
+- **[nanonautas-sessao2-final](https://glitch.com/~nanonautas-sessao2-final)** – Projecto final da segunda lição e da sessão #261 (HTML/CSS #2).
+- **[nanonautas-sessao4-final](https://glitch.com/~nanonautas-sessao4-final)** – Projecto final da segunda lição e da sessão #265 (HTML/CSS #4).
 
 Lembra-te que, à medida que segues na tua aprendizagem ou que lês o livro, podes ir conferindo o que fores fazendo com estes exemplos.
 
@@ -53,7 +59,7 @@ Lembra-te que, à medida que segues na tua aprendizagem ou que lês o livro, pod
 Fomos preparando várias apresentações para cada uma das sessões que realizámos remotamente sobre este percurso de aprendizagem. Talvez aches útil vê-las! Estão aqui:
 - [Apresentação da sessão #259 (HTML/CSS #1)](https://bit.ly/cdlx-html1)
 - [Apresentação da sessão #261 (HTML/CSS #2)](https://bit.ly/cdlx-html2)
-- [Apresentação da sessão #261 (HTML/CSS #4)](https://bit.ly/cdlx-html4)
+- [Apresentação da sessão #265 (HTML/CSS #4)](https://bit.ly/cdlx-html4)
 
 ## Percurso de aprendizagem
 
