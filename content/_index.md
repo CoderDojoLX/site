@@ -4,7 +4,15 @@ title: "CoderDojo LX"
 ---
 
 {{< blockquote author="Campeões e mentores do CoderDojo LX" >}}
-Actualização COVID-19: O CoderDojo LX continua de portas (virtuais) abertas a todos os ninjas de Portugal! Inscreve-te já para participares nas nossas sessões remotas.
+As férias de verão chegaram, mas queremos que continuem a treinar!
+
+Durante os meses de Julho e Agosto vamos ter sessões sessões de tutoria, denominadas sessões Code Kata, que irão permitir acompanhar os progressos e orientar os nossos ninjas. Estas sessões só se realizam com um número mínimo de participantes, pelo o que é imprescindível a inscrição prévia. Atenção aos prazos de inscrição!
+
+O CoderDojo LX criou um servidor de Minecraft onde todos os ninjas e amigos poderão jogar em conjunto. Estejam atentos ao nosso Facebook para mais informações!
+
+Voltaremos em Setembro!
+
+Boas férias!
 {{< /blockquote >}}
 
 ## Ninjas
