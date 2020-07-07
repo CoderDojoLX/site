@@ -8,6 +8,7 @@ Boa! Ainda bem que queres começar já. Esperamos ver esse entusiasmo nas nossas
 [Segue os nossos percursos de aprendizagem.](/legacy/)
 
 ## Tenho menos de 8 anos
+- Com o [ScratchJr](https://www.scratchjr.org/) vais poder divertir-te a criar as tuas próprias estórias e jogos interativos. 
 
 ## Tenho entre 8 e 13 anos
 
