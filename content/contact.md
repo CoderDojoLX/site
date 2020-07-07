@@ -5,7 +5,7 @@ title: 'Contacta-nos!'
 
 Envia as tuas mensagens dúvidas, questões, sugestões, o que for, para [lisbon.prt@coderdojo.com](mailto:lisbon.prt@coderdojo.com).
 
-Também podes conversar connosco no Slack. [Inscreve-te aqui.](https://bit.ly/cdlx-slack)
+Também podes conversar connosco no Slack. [Inscreve-te aqui.](https://bit.ly/cdlx-slack2)
 
 Podes também encontrar-nos nos locais habituais:
 [Facebook](https://www.facebook.com/coderdojolx),
